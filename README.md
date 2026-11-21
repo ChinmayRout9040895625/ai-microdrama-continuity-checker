@@ -131,9 +131,10 @@ To deploy it on Streamlit Community Cloud:
 3. Under *Secrets*, add the following:
    ```toml
    ANTHROPIC_API_KEY = "sk-ant-..."
-   APP_PASSWORD = "choose-a-password"
    ```
-   `APP_PASSWORD` is optional, but without it anyone with the link can spend your API credit.
+   The app is open to anyone with the link, and every run uses this key (about $0.33 per 10-episode run).
+   You can cap spending with a monthly limit in the Anthropic Console. Setting an `APP_PASSWORD` secret
+   would put the app behind a password, but this deployment leaves it unset.
 
 ## Reproducing the evaluation
 
