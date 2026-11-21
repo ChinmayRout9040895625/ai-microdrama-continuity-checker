@@ -113,6 +113,28 @@ All with Claude Sonnet 5.5. Details: [eval/](eval/) and [outputs/README.md](outp
 | AI-drafted 12-episode series (unseen) | 57 flags: 53 real errors, 2 intentional twists correctly marked, 1 debatable, 1 not an issue |
 | Cost / time | ≈86k input + 16k output tokens per 10-episode run (≈$0.33), under 1 minute |
 
+## Deployment
+
+**Results site (Vercel, static):** https://ai-microdrama-continuity-checker.vercel.app shows the stored scores,
+every run report and the docs, all generated from this repo by `site/build_site.py`. It does not run the model.
+
+```bash
+pip install markdown
+python site/build_site.py              # writes site/public/
+vercel deploy site/public --prod
+```
+
+**Live app (Streamlit Community Cloud):** Vercel cannot host the Streamlit UI, which needs a long-running server.
+To deploy it on Streamlit Community Cloud:
+1. Go to share.streamlit.io and choose *Create app* → *Deploy from GitHub*.
+2. Select this repository, branch `main` and main file `app.py`. Under *Advanced settings*, pick Python 3.12.
+3. Under *Secrets*, add the following:
+   ```toml
+   ANTHROPIC_API_KEY = "sk-ant-..."
+   APP_PASSWORD = "choose-a-password"
+   ```
+   `APP_PASSWORD` is optional, but without it anyone with the link can spend your API credit.
+
 ## Reproducing the evaluation
 
 ```bash

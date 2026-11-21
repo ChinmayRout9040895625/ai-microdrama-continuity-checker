@@ -1,5 +1,6 @@
 """Streamlit UI:  streamlit run app.py"""
 import json
+import os
 import tempfile
 from pathlib import Path
 
@@ -14,6 +15,16 @@ SAMPLES = {p.name: p for p in sorted((ROOT / "data").iterdir()) if p.is_dir()}
 
 st.set_page_config(page_title="Microdrama Continuity Checker", layout="wide")
 st.title("Microdrama Continuity Checker")
+
+# Optional gate for public deployments: set APP_PASSWORD so strangers can't spend the API credit.
+_password = os.getenv("APP_PASSWORD", "")
+if _password and not st.session_state.get("authed"):
+    if st.text_input("Password", type="password") == _password:
+        st.session_state["authed"] = True
+        st.rerun()
+    st.info("This demo calls a paid model API. Enter the password to use it.")
+    st.stop()
+
 st.caption("Upload the episode scripts of a series. Get every place where one episode contradicts another, "
            "with both lines quoted, before the scripts go to video generation.")
 
