@@ -1,0 +1,19 @@
+{
+  "run_id": "S2_planted_20261121-172842",
+  "input": "data\\S2_planted",
+  "episodes": 10,
+  "facts_kept": 133,
+  "facts_rejected": 0,
+  "issues_dropped_invalid_ids": 9,
+  "provider": "anthropic",
+  "models": "extract=claude-sonnet-5-5@medium, check=claude-sonnet-5-5@medium",
+  "prompt_version": "v2",
+  "usage": {
+    "calls": 19,
+    "cached_calls": 0,
+    "input_tokens": 86442,
+    "output_tokens": 15945,
+    "seconds": 109.86382150650024
+  },
+  "wall_seconds": 47.7
+}

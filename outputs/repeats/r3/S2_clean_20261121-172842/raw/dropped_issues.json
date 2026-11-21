@@ -1,0 +1,13 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F15",
+    "new_fact_id": "E03-F11",
+    "explanation": "In Ep1 Vanessa appears as Adrian's possessive companion, which is consistent with a past engagement, so the facts can both be true.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  }
+]

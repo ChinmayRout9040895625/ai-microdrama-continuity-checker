@@ -1,0 +1,19 @@
+{
+  "run_id": "S1_generated_20261121-173414",
+  "input": "data\\S1_generated",
+  "episodes": 12,
+  "facts_kept": 225,
+  "facts_rejected": 1,
+  "issues_dropped_invalid_ids": 8,
+  "provider": "anthropic",
+  "models": "extract=claude-sonnet-5-5@medium, check=claude-sonnet-5-5@medium",
+  "prompt_version": "v2",
+  "usage": {
+    "calls": 23,
+    "cached_calls": 23,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0
+  },
+  "wall_seconds": 2.9
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F13",
+    "new_fact_id": "E03-F11",
+    "explanation": "Ep2 says the board wants Adrian to marry into Vanessa's family money, implying no prior engagement, while Ep3 has Vanessa claiming a two-year engagement that ended last spring. These could both be true if the engagement ended and the board still pushes the match, so this is weak.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "No change needed; optionally add a line in Ep2 or Ep3 acknowledging the past engagement."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F15",
+    "new_fact_id": "E03-F12",
+    "explanation": "Ep1 shows Adrian sitting with Vanessa as a companion, which is compatible with an ended engagement, so the two facts can both be true.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F06",
+    "new_fact_id": "E04-F05",
+    "explanation": "Ep1 has Maya refer to her mother dying eight years ago as if it were her birth mother. Ep4 reveals Grace found her alone at age four and raised her, so Maya's origin is changed. Both can be true if Grace is an adoptive mother who died eight years ago, so this is not clearly a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "Optionally add a line clarifying that Grace adopted Maya and has since died."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E03-F13",
+    "new_fact_id": "E05-F01",
+    "explanation": "In Ep3 Vanessa only suspects Maya is being paid; in Ep5 she knows about the contract, but she obtained that knowledge on screen by photographing it, so this is a development rather than a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "No fix needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F05",
+    "new_fact_id": "E06-F12",
+    "explanation": "Ep2 says the surgery must happen within thirty days and the money is only promised if Maya completes the three-month deal. Ep6 treats the cost as already 'covered', with Sam 'getting stronger', though it is unclear whether the surgery has taken place.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "No fix is needed unless the timeline is confusing; optionally add a line mentioning the surgery."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F07",
+    "new_fact_id": "E06-F02",
+    "explanation": "Maya was found at age four and is 24 now, so she was found 20 years ago, which fits Mia vanishing 20 years ago. This is consistent.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E06-F10",
+    "new_fact_id": "E07-F02",
+    "explanation": "Ep6 has Martin calling Chloe Adrian's cousin, while Ep3 and Ep6 show Chloe as his sister; this ep has Chloe acting as a close family member. However, E06-F10 is Martin's mistaken claim and not clearly contradicted here.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed, or fix Martin's line to say 'sister'."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E05-F01",
+    "new_fact_id": "E07-F01",
+    "explanation": "Ep5 sets the blackmail ultimatum as 'leave by Friday', and Ep6 has her message 'Friday. Tick tock.' Ep7 says it has gone on for a week, which is plausible but not conflicting.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F03",
+    "new_fact_id": "E08-F11",
+    "explanation": "Maya has worn the locket regularly (Ep1, Ep4) and recently discussed it at the gala. Claiming she hasn't opened it in years is not strictly incompatible, but 'first time in years' is plausible. Not a conflict.",
+    "is_real_contradiction": false,
+    "issue_type": "possession",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F13",
+    "new_fact_id": "E08-F10",
+    "explanation": "The locket is engraved 'M.H.', which matches Mia Hale, so this is consistent.",
+    "is_real_contradiction": false,
+    "issue_type": "identity",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E08-F05",
+    "new_fact_id": "E09-F12",
+    "explanation": "Maya's apartment is on Oak Avenue in Ep8 but Ep2 placed it on Maple Street; Ep9 shows her apartment with no address, so no direct conflict with Ep9.",
+    "is_real_contradiction": false,
+    "issue_type": "location",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed for Ep9."
+  }
+]

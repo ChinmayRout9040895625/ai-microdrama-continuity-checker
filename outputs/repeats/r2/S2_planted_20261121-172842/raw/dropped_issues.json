@@ -1,0 +1,123 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F08",
+    "new_fact_id": "E05-F06",
+    "explanation": "Maya was fired from the diner in Ep2, so Vanessa calling her a waitress could be a contradiction. However, Vanessa could still use 'waitress' as an insult for Maya's background, so both can be true.",
+    "is_real_contradiction": false,
+    "issue_type": "occupation",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "Optionally change to 'a former waitress' or 'a diner girl'."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F10",
+    "new_fact_id": "E05-F02",
+    "explanation": "Ep2 and Ep5 agree on a three-month deal with eighty thousand dollars for the surgery. The details are consistent.",
+    "is_real_contradiction": false,
+    "issue_type": "other",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F02",
+    "new_fact_id": "E06-F10",
+    "explanation": "Chloe calls Adrian 'my brother' while Martin calls her Adrian's cousin; both cannot literally be true.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "Have Chloe say 'my cousin' or add 'practically my brother'."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E06-F12",
+    "new_fact_id": "E07-F10",
+    "explanation": "Episode 6 shows Maya saying she is paying $120,000 for Sam's care, while earlier episodes put the surgery at $80,000. This is not a conflict with Episode 7 itself, so it is not reported as one.",
+    "is_real_contradiction": false,
+    "issue_type": "possession",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "No Episode 7 fix needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E06-F02",
+    "new_fact_id": "E08-F04",
+    "explanation": "Mia vanished twenty years ago. Maya is 24 (or 22 per Ep7), so losing her at age two puts the disappearance 22 or 20 years ago, while being found at four fits 20 years only with age 24. This is mildly inconsistent across ages, but the main conflict is with E04-F08.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "Align the age at loss with the 20-year figure and Maya's age."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F10",
+    "new_fact_id": "E08-F11",
+    "explanation": "Richard met Maya at the gala and recognized the locket, but he says he hesitated to approach her. That is compatible, so it is not a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F12",
+    "new_fact_id": "E08-F09",
+    "explanation": "Maya has worn the locket constantly, but Ep8 says she opens it 'for the first time in years' and discovers a photo inside. This is possible, but the locket engraved 'M.H.' is also not noted as matching 'Mia Hale' until now.",
+    "is_real_contradiction": false,
+    "issue_type": "possession",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F07",
+    "new_fact_id": "E08-F08",
+    "explanation": "Maya was raised by adoptive mother Grace, who has since died. Maya's claim that she thought she was 'nobody's' is emotional and does not contradict this.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E08-F06",
+    "new_fact_id": "E09-F14",
+    "explanation": "Ep2 says Maya lives on Maple Street and Ep8 says Oak Avenue, but Ep9 only shows her apartment without a street, so no new conflict arises here. The Ep9 location is consistent with either.",
+    "is_real_contradiction": false,
+    "issue_type": "location",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed in Ep9; reconcile Maple Street vs Oak Avenue in earlier episodes."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E08-F09",
+    "new_fact_id": "E10-F08",
+    "explanation": "The locket's photo was shown in Ep8 as a younger Richard with a little girl (a photo of both), and Maya only learned Richard was her father recently; she now describes it as her father's photograph carried for twenty years.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "Optionally have Maya say 'a photo of the father I never knew'."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F07",
+    "new_fact_id": "E10-F10",
+    "explanation": "Grace was established as Maya's adoptive mother, and Maya's mother was said to have died eight years ago; Derek now alleges she was killed, which is not necessarily contradictory but is a new unexplained claim, possibly a twist.",
+    "is_real_contradiction": false,
+    "issue_type": "status",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed unless the cause of death is stated differently elsewhere."
+  }
+]

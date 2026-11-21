@@ -1,0 +1,790 @@
+{
+  "Maya Collins": [
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 24 years old",
+      "quote": "MAYA COLLINS (24), apron stained, balances four plates.",
+      "id": "E01-F01"
+    },
+    {
+      "episode": 1,
+      "category": "occupation",
+      "target": "Rosie's Diner",
+      "value": "works as a waitress at Rosie's Diner in Chicago, working double shifts",
+      "quote": "This trash has worked double shifts since my mom died eight years ago.",
+      "id": "E01-F04"
+    },
+    {
+      "episode": 1,
+      "category": "possession",
+      "target": "Sam's treatment",
+      "value": "needs to find eighty thousand dollars for Sam's hospital care",
+      "quote": "I know. Eighty thousand dollars. I'll find it. I promise.",
+      "id": "E01-F08"
+    },
+    {
+      "episode": 1,
+      "category": "possession",
+      "target": null,
+      "value": "wears a silver locket engraved \"M.H.\" (initials differ from her surname Collins)",
+      "quote": "His eyes catch the locket, engraved \"M.H.\"",
+      "id": "E01-F09"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Adrian",
+      "value": "signed a secret contract with Adrian, which he countersigned",
+      "quote": "Maya, in her one good dress, signs a thick contract. Adrian countersigns.",
+      "id": "E03-F01"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Adrian",
+      "value": "Maya forbids Adrian from touching her when nobody is watching",
+      "quote": "Rule two. You don't get to touch me when nobody's watching.",
+      "id": "E03-F03"
+    },
+    {
+      "episode": 4,
+      "category": "possession",
+      "target": "locket",
+      "value": "wears a locket she had when found as a child",
+      "quote": "I was wearing it when she found me alone at the Navy Pier carnival.",
+      "id": "E04-F03"
+    },
+    {
+      "episode": 4,
+      "category": "relationship",
+      "target": "Grace",
+      "value": "Grace is Maya's mother who found her alone at a carnival (claimed by Maya)",
+      "quote": "My mother, Grace, said I was wearing it when she found me alone at the Navy Pier carnival.",
+      "id": "E04-F04"
+    },
+    {
+      "episode": 4,
+      "category": "age",
+      "target": null,
+      "value": "was four years old when found at Navy Pier carnival",
+      "quote": "I was four. I don't remember anything before that.",
+      "id": "E04-F05"
+    },
+    {
+      "episode": 4,
+      "category": "knowledge",
+      "target": "her early childhood",
+      "value": "remembers nothing before age four",
+      "quote": "I don't remember anything before that.",
+      "id": "E04-F06"
+    },
+    {
+      "episode": 4,
+      "category": "possession",
+      "target": "gown",
+      "value": "wearing a borrowed silver gown at the gala",
+      "quote": "Maya, stunning in a borrowed silver gown, holds Adrian's arm.",
+      "id": "E04-F08"
+    },
+    {
+      "episode": 5,
+      "category": "relationship",
+      "target": "Maya's brother",
+      "value": "has a little brother with hospital bills",
+      "quote": "Your little brother's hospital bills will be the least of your problems.}",
+      "id": "E05-F03"
+    },
+    {
+      "episode": 5,
+      "category": "occupation",
+      "target": null,
+      "value": "is a waitress (per Vanessa)",
+      "quote": "I'm not losing him to a waitress.}",
+      "id": "E05-F05"
+    },
+    {
+      "episode": 5,
+      "category": "knowledge",
+      "target": "Vanessa",
+      "value": "keeps the blackmail secret and tells no one",
+      "quote": "Maya stares at her reflection. She tells no one.}",
+      "id": "E05-F06"
+    },
+    {
+      "episode": 6,
+      "category": "timeline",
+      "target": "Richard Hale",
+      "value": "vanished twenty years ago",
+      "quote": "My daughter Mia vanished twenty years ago, Martin.",
+      "id": "E06-F02"
+    },
+    {
+      "episode": 6,
+      "category": "location",
+      "target": "St. Luke's Hospital",
+      "value": "was at St. Luke's Hospital with Chloe the previous day and again now",
+      "quote": "Miss Collins was seen with Adrian Cross's cousin Chloe at St. Luke's Hospital yesterday.",
+      "id": "E06-F07"
+    },
+    {
+      "episode": 6,
+      "category": "possession",
+      "target": "Sam",
+      "value": "is paying or has covered $120,000 for Sam's care",
+      "quote": "A hundred and twenty thousand dollars, Sam. It's covered. You just focus on getting stronger.",
+      "id": "E06-F08"
+    },
+    {
+      "episode": 7,
+      "category": "relationship",
+      "target": "Adrian",
+      "value": "their relationship is officially a contract (claimed by Maya)",
+      "quote": "Because this is a contract, Adrian. I didn't want to cost you anything.",
+      "id": "E07-F05"
+    },
+    {
+      "episode": 7,
+      "category": "age",
+      "target": null,
+      "value": "is 22 years old",
+      "quote": "I'm only twenty-two, Adrian. I stopped believing in fairy tales a long time ago.",
+      "id": "E07-F07"
+    },
+    {
+      "episode": 8,
+      "category": "identity",
+      "target": "Richard",
+      "value": "is Richard's biological daughter, born Mia Hale",
+      "quote": "Your name is Mia Hale. I put that locket on you myself.}",
+      "id": "E08-F01"
+    },
+    {
+      "episode": 8,
+      "category": "relationship",
+      "target": "Richard",
+      "value": "DNA test shows 99.9% match as Richard's daughter",
+      "quote": "Ninety-nine point nine percent, sir.}",
+      "id": "E08-F02"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": "Richard",
+      "value": "learns Richard is her father in this episode",
+      "quote": "This can't be real. I'm... your daughter?}",
+      "id": "E08-F04"
+    },
+    {
+      "episode": 8,
+      "category": "location",
+      "target": null,
+      "value": "lives in an apartment building on Oak Avenue",
+      "quote": "I drove past this building on Oak Avenue three times before I found the courage to knock.}",
+      "id": "E08-F05"
+    },
+    {
+      "episode": 8,
+      "category": "possession",
+      "target": "Richard",
+      "value": "owns a locket Richard put on her as a child, containing a photo of young Richard with a little girl",
+      "quote": "Inside, a tiny photo of a younger Richard holding a little girl.}",
+      "id": "E08-F06"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": null,
+      "value": "grew up believing she was nobody's child",
+      "quote": "My whole life I thought I was nobody's.}",
+      "id": "E08-F07"
+    },
+    {
+      "episode": 9,
+      "category": "identity",
+      "target": null,
+      "value": "is also called Mia by an unknown texter",
+      "quote": "\"Enjoy it while it lasts, Mia.\"",
+      "id": "E09-F12"
+    },
+    {
+      "episode": 9,
+      "category": "location",
+      "target": "Adrian Cross",
+      "value": "Maya and Adrian are at Maya's apartment together",
+      "quote": "Maya and Adrian sit on the floor eating takeout.",
+      "id": "E09-F13"
+    },
+    {
+      "episode": 10,
+      "category": "identity",
+      "target": "Richard Hale",
+      "value": "publicly introduced by Richard as his daughter Emma Hale",
+      "quote": "This is my daughter, Emma Hale. And today she comes home.",
+      "id": "E10-F01"
+    },
+    {
+      "episode": 10,
+      "category": "possession",
+      "target": "Richard Hale",
+      "value": "carries a locket with her father's photograph, for twenty years",
+      "quote": "A con artist doesn't carry her father's photograph for twenty years without knowing it.",
+      "id": "E10-F06"
+    }
+  ],
+  "Adrian Cross": [
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 30 years old",
+      "quote": "ADRIAN CROSS (30), sharp suit, cold eyes, sits in a booth with VANESSA REED (28)",
+      "id": "E01-F02"
+    },
+    {
+      "episode": 1,
+      "category": "relationship",
+      "target": "Vanessa Reed",
+      "value": "is with Vanessa at the diner; she is close to him and surprised by his tipping",
+      "quote": "Since when do you tip waitresses?",
+      "id": "E01-F10"
+    },
+    {
+      "episode": 1,
+      "category": "possession",
+      "target": "Maya Collins",
+      "value": "left a hundred-dollar bill as tip under his cup",
+      "quote": "Adrian slides a hundred-dollar bill under his cup.",
+      "id": "E01-F11"
+    },
+    {
+      "episode": 1,
+      "category": "knowledge",
+      "target": "Maya Collins",
+      "value": "learns Maya's brother Sam is sick and she needs money; first meeting with Maya",
+      "quote": "Who's Sam?",
+      "id": "E01-F12"
+    },
+    {
+      "episode": 3,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "Adrian and Maya agree nobody can ever know the arrangement is a contract",
+      "quote": "Rule one. Nobody can ever know this is a contract.",
+      "id": "E03-F02"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Chloe Cross",
+      "value": "has never brought a woman to the office before Maya (claimed by Chloe)",
+      "quote": "He has never once brought a woman to the office.",
+      "id": "E03-F07"
+    },
+    {
+      "episode": 3,
+      "category": "possession",
+      "target": "contract",
+      "value": "hid the contract in his desk drawer",
+      "quote": "Adrian quickly slides the contract into his desk drawer.",
+      "id": "E03-F08"
+    },
+    {
+      "episode": 3,
+      "category": "location",
+      "target": null,
+      "value": "office is on the 40th floor of Cross Tower",
+      "quote": "INT. CROSS TOWER, 40TH FLOOR, ADRIAN'S OFFICE - DAY",
+      "id": "E03-F13"
+    },
+    {
+      "episode": 4,
+      "category": "relationship",
+      "target": "Maya Collins",
+      "value": "escorts Maya to the gala and protects her",
+      "quote": "Adrian steps protectively in front of Maya.",
+      "id": "E04-F09"
+    },
+    {
+      "episode": 5,
+      "category": "knowledge",
+      "target": "Vanessa",
+      "value": "does not know about the blackmail; believes Vanessa has never met Maya (claimed by Adrian)",
+      "quote": "Vanessa, you've never even met Maya. Stay away from her.}",
+      "id": "E05-F07"
+    },
+    {
+      "episode": 5,
+      "category": "location",
+      "target": null,
+      "value": "his office is in Cross Tower and has a desk drawer holding the contract",
+      "quote": "Empty. Vanessa slips in, opens the desk drawer and photographs the contract page by page.}",
+      "id": "E05-F08"
+    },
+    {
+      "episode": 6,
+      "category": "relationship",
+      "target": "Maya",
+      "value": "has romantic feelings for Maya (claimed by Chloe)",
+      "quote": "You know my brother looks at you like you're the only person in the room, right?",
+      "id": "E06-F10"
+    },
+    {
+      "episode": 7,
+      "category": "knowledge",
+      "target": "Vanessa",
+      "value": "learns from Chloe that Vanessa blackmailed Maya",
+      "quote": "Adrian's jaw tightens. He reads every message.",
+      "id": "E07-F03"
+    },
+    {
+      "episode": 7,
+      "category": "relationship",
+      "target": "Maya",
+      "value": "says it stopped being a contract for him; met Maya when she threw coffee on him",
+      "quote": "It stopped being a contract for me the night you threw coffee on me.",
+      "id": "E07-F06"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Adrian's father",
+      "value": "Adrian's father is someone he trusts to handle Derek",
+      "quote": "I'll ask my father tonight. He'll know exactly how to handle Derek.”",
+      "id": "E09-F11"
+    },
+    {
+      "episode": 10,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "Adrian just learned Vanessa blackmailed Maya; Maya never told him",
+      "quote": "Vanessa blackmailed you? Why didn't you ever tell me?",
+      "id": "E10-F05"
+    }
+  ],
+  "Vanessa Reed": [
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 28 years old",
+      "quote": "VANESSA REED (28), all diamonds and disdain.",
+      "id": "E01-F03"
+    },
+    {
+      "episode": 3,
+      "category": "occupation",
+      "target": null,
+      "value": "marketing director at Cross Tower company",
+      "quote": "I'm the marketing director here, sweetheart, which means I know how to spot a cheap product.",
+      "id": "E03-F09"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Adrian",
+      "value": "was engaged to Adrian for two years",
+      "quote": "I was engaged to him for two years.",
+      "id": "E03-F10"
+    },
+    {
+      "episode": 3,
+      "category": "timeline",
+      "target": "Adrian",
+      "value": "Adrian broke off the engagement last spring",
+      "quote": "He broke it off last spring, and he'll come back.",
+      "id": "E03-F11"
+    },
+    {
+      "episode": 3,
+      "category": "knowledge",
+      "target": "contract",
+      "value": "Vanessa looks toward the desk drawer, hinting she suspects or will investigate the contract",
+      "quote": "Vanessa's eyes drift to Adrian's office door, and the desk drawer inside.",
+      "id": "E03-F12"
+    },
+    {
+      "episode": 5,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "photographed the contract from Adrian's desk and knows about the three-month, $80,000 arrangement",
+      "quote": "Three months. Eighty thousand dollars. Cute.}",
+      "id": "E05-F01"
+    },
+    {
+      "episode": 5,
+      "category": "other",
+      "target": "Maya",
+      "value": "blackmails Maya: leave Adrian by Friday or the contract goes to gossip sites in Chicago",
+      "quote": "Leave him by Friday, or this goes to every gossip site in Chicago.}",
+      "id": "E05-F02"
+    },
+    {
+      "episode": 5,
+      "category": "relationship",
+      "target": "Adrian",
+      "value": "claims she gave Adrian four years of her life",
+      "quote": "I gave that man four years of my life.}",
+      "id": "E05-F04"
+    },
+    {
+      "episode": 6,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "is pressuring Maya with a Friday deadline",
+      "quote": "Friday. Tick tock.",
+      "id": "E06-F11"
+    },
+    {
+      "episode": 7,
+      "category": "relationship",
+      "target": "Maya",
+      "value": "has been blackmailing Maya for a week via threatening texts",
+      "quote": "She's been blackmailing Maya for a week. Maya made me promise not to tell you. I'm breaking that promise.",
+      "id": "E07-F01"
+    },
+    {
+      "episode": 7,
+      "category": "occupation",
+      "target": "Cross Tower",
+      "value": "worked in the marketing department at Cross Tower and is fired by Adrian",
+      "quote": "Pack your things. You're fired. Security will walk you out.",
+      "id": "E07-F04"
+    },
+    {
+      "episode": 9,
+      "category": "occupation",
+      "target": "Cross Capital",
+      "value": "was head of legal at Cross Capital",
+      "quote": "When I was head of legal at Cross Capital, I read every contract he signed.",
+      "id": "E09-F05"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Adrian Cross",
+      "value": "Derek says Maya took Adrian from Vanessa (claimed by Derek)",
+      "quote": "Because she took Adrian Cross from you.",
+      "id": "E09-F08"
+    }
+  ],
+  "Uncle Richard": [
+    {
+      "episode": 4,
+      "category": "occupation",
+      "target": "Hale Group",
+      "value": "silver-haired billionaire connected to the Hale Group, hosting the charity gala",
+      "quote": "RICHARD HALE (60s), silver-haired billionaire, raises a glass.",
+      "id": "E04-F01"
+    },
+    {
+      "episode": 4,
+      "category": "knowledge",
+      "target": "Maya's locket",
+      "value": "recognizes the locket and is shocked, suggesting he may be connected to Maya's origins",
+      "quote": "His eyes land on Maya's locket. The glass slips from his hand and shatters.",
+      "id": "E04-F02"
+    },
+    {
+      "episode": 4,
+      "category": "knowledge",
+      "target": "Maya Collins",
+      "value": "just learned Maya's name; hopes she is not who he fears",
+      "quote": "I hope not. God, I hope not.",
+      "id": "E04-F10"
+    },
+    {
+      "episode": 6,
+      "category": "relationship",
+      "target": "Mia",
+      "value": "Mia is his daughter who vanished",
+      "quote": "My daughter Mia vanished twenty years ago, Martin.}",
+      "id": "E06-F01"
+    },
+    {
+      "episode": 6,
+      "category": "knowledge",
+      "target": "Mia",
+      "value": "has chased a hundred false leads about Mia's disappearance",
+      "quote": "I've chased a hundred false leads since.",
+      "id": "E06-F03"
+    },
+    {
+      "episode": 6,
+      "category": "possession",
+      "target": "Mia",
+      "value": "has an old photo of Mia in a yellow dress wearing a silver locket",
+      "quote": "a little girl in a yellow dress, the same silver locket at her neck.",
+      "id": "E06-F05"
+    },
+    {
+      "episode": 8,
+      "category": "timeline",
+      "target": "Maya",
+      "value": "lost Maya at a carnival when she was two years old",
+      "quote": "You were only two years old when I lost you at that carnival.}",
+      "id": "E08-F03"
+    },
+    {
+      "episode": 8,
+      "category": "location",
+      "target": null,
+      "value": "lives at the Hale mansion",
+      "quote": "INT. HALE MANSION, STUDY - NIGHT}",
+      "id": "E08-F09"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "a man with a camera is secretly watching Maya's building",
+      "quote": "Outside, across the street, a parked car. Inside, a man with a camera.}",
+      "id": "E08-F10"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Maya",
+      "value": "has found his long-lost daughter, apparently Maya (claimed by Derek)",
+      "quote": "Uncle Richard has found his long-lost daughter. If the girl is real, I lose everything.",
+      "id": "E09-F03"
+    },
+    {
+      "episode": 9,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "plans to announce Maya as his daughter to the press tomorrow",
+      "quote": "He wants to announce it to the press tomorrow. I'm terrified.",
+      "id": "E09-F10"
+    },
+    {
+      "episode": 10,
+      "category": "knowledge",
+      "target": "Derek's DNA test",
+      "value": "Richard says the lab that produced Derek's test closed in 2019, discrediting it",
+      "quote": "This lab closed in 2019.",
+      "id": "E10-F04"
+    },
+    {
+      "episode": 10,
+      "category": "occupation",
+      "target": "Hale Group",
+      "value": "leads Hale Group, holding press conference at its headquarters",
+      "quote": "INT. HALE GROUP HEADQUARTERS, PRESS ROOM - DAY",
+      "id": "E10-F09"
+    }
+  ],
+  "Derek Hale": [
+    {
+      "episode": 9,
+      "category": "age",
+      "target": null,
+      "value": "is 35 years old",
+      "quote": "DEREK HALE (35), Richard's nephew",
+      "id": "E09-F01"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Richard",
+      "value": "is Richard's nephew",
+      "quote": "DEREK HALE (35), Richard's nephew",
+      "id": "E09-F02"
+    },
+    {
+      "episode": 9,
+      "category": "knowledge",
+      "target": "Richard",
+      "value": "fears losing company and house if Richard's daughter is real",
+      "quote": "If the girl is real, I lose everything. The company, the house, all of it.”",
+      "id": "E09-F04"
+    },
+    {
+      "episode": 9,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "plans to forge a DNA report saying Maya is a fraud",
+      "quote": "Then let's give them a new DNA report. One that says she's a fraud.",
+      "id": "E09-F06"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Vanessa",
+      "value": "allies with Vanessa against Maya",
+      "quote": "They clink glasses.",
+      "id": "E09-F07"
+    },
+    {
+      "episode": 10,
+      "category": "relationship",
+      "target": "Richard Hale",
+      "value": "is Richard's nephew",
+      "quote": "Security, remove my nephew.",
+      "id": "E10-F02"
+    },
+    {
+      "episode": 10,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "claims an independent DNA test shows zero match with Maya (claimed by Derek)",
+      "quote": "I have an independent DNA test. Zero match.",
+      "id": "E10-F03"
+    },
+    {
+      "episode": 10,
+      "category": "knowledge",
+      "target": "Grace Collins",
+      "value": "implies Maya knows who really killed Grace Collins",
+      "quote": "Then ask her who really killed Grace Collins!",
+      "id": "E10-F07"
+    }
+  ],
+  "Sam Collins": [
+    {
+      "episode": 1,
+      "category": "relationship",
+      "target": "Maya Collins",
+      "value": "is Maya's little brother, age twelve",
+      "quote": "My little brother. He's twelve, and his heart doesn't care how rich you are.",
+      "id": "E01-F06"
+    },
+    {
+      "episode": 1,
+      "category": "status",
+      "target": null,
+      "value": "has a heart condition and is at St. Luke's Hospital",
+      "quote": "His eyes catch the locket, engraved \"M.H.\"",
+      "id": "E01-F07"
+    },
+    {
+      "episode": 2,
+      "category": "age",
+      "target": null,
+      "value": "is 12 years old",
+      "quote": "SAM COLLINS (12), pale, lies hooked to monitors.",
+      "id": "E02-F01"
+    },
+    {
+      "episode": 6,
+      "category": "status",
+      "target": null,
+      "value": "is recovering, needing to get stronger, likely ill or injured",
+      "quote": "You just focus on getting stronger.",
+      "id": "E06-F09"
+    },
+    {
+      "episode": 7,
+      "category": "status",
+      "target": null,
+      "value": "had surgery that was a complete success",
+      "quote": "Maya, Sam's surgery was a complete success.",
+      "id": "E07-F08"
+    },
+    {
+      "episode": 9,
+      "category": "status",
+      "target": null,
+      "value": "is waiting for surgery, date keeps being pushed",
+      "quote": "Sam is still waiting for his surgery. The doctors keep pushing the date.",
+      "id": "E09-F09"
+    }
+  ],
+  "Chloe Cross": [
+    {
+      "episode": 3,
+      "category": "age",
+      "target": null,
+      "value": "is 19 years old",
+      "quote": "CHLOE CROSS (19), bright and curious, bounces in.",
+      "id": "E03-F04"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Adrian",
+      "value": "is Adrian's little sister",
+      "quote": "I'm Chloe, Adrian's little sister.",
+      "id": "E03-F05"
+    },
+    {
+      "episode": 3,
+      "category": "knowledge",
+      "target": "Maya",
+      "value": "Chloe has just met Maya and does not know about the contract",
+      "quote": "So THIS is the mystery girl! I'm Chloe, Adrian's little sister.",
+      "id": "E03-F06"
+    },
+    {
+      "episode": 6,
+      "category": "relationship",
+      "target": "Adrian Cross",
+      "value": "is Adrian Cross's cousin (per Martin); Chloe also calls Adrian her brother",
+      "quote": "Miss Collins was seen with Adrian Cross's cousin Chloe at St. Luke's Hospital yesterday.",
+      "id": "E06-F06"
+    },
+    {
+      "episode": 7,
+      "category": "knowledge",
+      "target": "Vanessa",
+      "value": "knew about Vanessa's blackmail of Maya and told Adrian, breaking her promise to Maya",
+      "quote": "Maya made me promise not to tell you. I'm breaking that promise.",
+      "id": "E07-F02"
+    }
+  ],
+  "Martin": [
+    {
+      "episode": 4,
+      "category": "occupation",
+      "target": "Richard Hale",
+      "value": "is Richard's assistant, in his 40s",
+      "quote": "MARTIN (40s), Richard's assistant, steps in.",
+      "id": "E04-F07"
+    },
+    {
+      "episode": 6,
+      "category": "possession",
+      "target": "Maya",
+      "value": "obtained a coffee cup with lipstick from the gala, believed to be Maya's, for DNA testing",
+      "quote": "From the gala. Hers. The lab can have DNA results in seventy-two hours.",
+      "id": "E06-F04"
+    },
+    {
+      "episode": 8,
+      "category": "occupation",
+      "target": "Richard",
+      "value": "works for Richard and delivered the DNA result",
+      "quote": "Martin hands Richard an envelope.}",
+      "id": "E08-F08"
+    }
+  ],
+  "Grace Collins": [
+    {
+      "episode": 1,
+      "category": "status",
+      "target": "Maya Collins",
+      "value": "died eight years ago",
+      "quote": "This trash has worked double shifts since my mom died eight years ago.",
+      "id": "E01-F05"
+    },
+    {
+      "episode": 10,
+      "category": "status",
+      "target": null,
+      "value": "is dead, killed",
+      "quote": "Then ask her who really killed Grace Collins!",
+      "id": "E10-F08"
+    }
+  ],
+  "Dr. Patel": [
+    {
+      "episode": 7,
+      "category": "occupation",
+      "target": "Sam",
+      "value": "is a doctor handling Sam's care and calls Maya with the surgery result",
+      "quote": "Maya, Sam's surgery was a complete success.",
+      "id": "E07-F09"
+    }
+  ]
+}

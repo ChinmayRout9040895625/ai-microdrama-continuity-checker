@@ -1,0 +1,12 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+.cache/
+.cache_*/
+
+# Kuku assignment brief (shared privately; do not publish)
+Kuku*.pdf
+
+# UI editor labels created during demos
+outputs/**/labels.json

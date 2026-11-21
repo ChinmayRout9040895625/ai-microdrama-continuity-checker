@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "run_id": "S2_clean_20261121-174516",
+    "input": "data\\S2_clean",
+    "episodes": 10,
+    "facts_kept": 104,
+    "facts_rejected": 0,
+    "issues_dropped_invalid_ids": 0,
+    "provider": "anthropic",
+    "models": "extract=claude-sonnet-5-5@medium, check=claude-sonnet-5-5@medium",
+    "prompt_version": "v2",
+    "usage": {
+      "calls": 19,
+      "cached_calls": 7,
+      "input_tokens": 52428,
+      "output_tokens": 6430,
+      "seconds": 54.361944913864136
+    },
+    "wall_seconds": 23.9
+  },
+  "issues": [
+    {
+      "id": "E05-F07~E07-F01",
+      "prior": {
+        "id": "E05-F07",
+        "episode": 5,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "knowledge",
+        "target": "Adrian",
+        "value": "has not told anyone about Vanessa's blackmail, including Adrian",
+        "quote": "Maya stares at her reflection. She tells no one.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F01",
+        "episode": 7,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "relationship",
+        "target": "Maya",
+        "value": "has been blackmailing Maya for a week (claimed by Chloe)",
+        "quote": "CHLOE: She's been blackmailing Maya for a week. Maya made me promise not to tell you. I'm breaking that promise.",
+        "quote_score": 97.22222222222221
+      },
+      "issue_type": "knowledge",
+      "severity": "low",
+      "explanation": "Ep5 shows Maya telling no one about Vanessa's blackmail, but Ep7 has Chloe claiming Maya told her and made her promise secrecy, so both cannot be true unless Maya told Chloe off-screen later.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Chloe's line so she found out on her own (e.g. she saw the texts on Maya's phone), or add a short scene where Maya confides in Chloe."
+    }
+  ]
+}

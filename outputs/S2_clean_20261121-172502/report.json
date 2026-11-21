@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "run_id": "S2_clean_20261121-172502",
+    "input": "data\\S2_clean",
+    "episodes": 10,
+    "facts_kept": 95,
+    "facts_rejected": 0,
+    "issues_dropped_invalid_ids": 0,
+    "provider": "anthropic",
+    "models": "extract=claude-sonnet-5-5@low, check=claude-sonnet-5-5@medium",
+    "prompt_version": "v1",
+    "usage": {
+      "calls": 19,
+      "cached_calls": 7,
+      "input_tokens": 51188,
+      "output_tokens": 7258,
+      "seconds": 62.30077528953552
+    },
+    "wall_seconds": 36.0
+  },
+  "issues": [
+    {
+      "id": "E01-F12~E07-F06",
+      "prior": {
+        "id": "E01-F12",
+        "episode": 1,
+        "entity": "Adrian Cross",
+        "entity_key": "adrian cross",
+        "category": "knowledge",
+        "target": "Maya Collins",
+        "value": "learns Maya's brother Sam is sick and she needs money; first meeting with Maya",
+        "quote": "Who's Sam?",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F06",
+        "episode": 7,
+        "entity": "Adrian",
+        "entity_key": "adrian cross",
+        "category": "relationship",
+        "target": "Maya",
+        "value": "says it stopped being a contract for him; they met when she threw coffee on him",
+        "quote": "It stopped being a contract for me the night you threw coffee on me.",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "high",
+      "explanation": "Ep1 shows Adrian and Maya meeting at the diner, where he leaves a tip and asks 'Who's Sam?', with no coffee-throwing incident. Ep7 says she threw coffee on him the night they met, which conflicts with the established first meeting.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change the line to reference the diner night, e.g. 'the night you refused my tip', or add a coffee-spill moment to the Ep1 meeting."
+    },
+    {
+      "id": "E04-F05~E10-F06",
+      "prior": {
+        "id": "E04-F05",
+        "episode": 4,
+        "entity": "Maya Collins",
+        "entity_key": "maya collins",
+        "category": "age",
+        "target": null,
+        "value": "was four years old when found at Navy Pier carnival",
+        "quote": "I was four. I don't remember anything before that.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F06",
+        "episode": 10,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "timeline",
+        "target": null,
+        "value": "has carried the locket with father's photo for twenty years (claimed by Maya)",
+        "quote": "A con artist doesn't carry her father's photograph for twenty years without knowing it.",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "high",
+      "explanation": "Maya was found at four and is now 24, so she could have carried the locket for at most about twenty years only if counted from age four; however Richard says he put the locket on her himself before she was lost, so the span would be roughly 20 years. This is consistent, but the established account that Grace found her wearing it conflicts with nothing here. No real conflict on duration.",
+      "could_be_intentional": false,
+      "suggested_fix": "No change needed."
+    },
+    {
+      "id": "E06-F09~E07-F01",
+      "prior": {
+        "id": "E06-F09",
+        "episode": 6,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "knowledge",
+        "target": "Maya Collins",
+        "value": "is threatening Maya with a Friday deadline",
+        "quote": "Friday. Tick tock.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F01",
+        "episode": 7,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "relationship",
+        "target": "Maya",
+        "value": "has been blackmailing Maya for a week via threatening texts",
+        "quote": "She's been blackmailing Maya for a week.</br>",
+        "quote_score": 88.88888888888889
+      },
+      "issue_type": "timeline",
+      "severity": "medium",
+      "explanation": "Ep5 and Ep6 show the blackmail beginning only recently, with a Friday deadline and a few days between the contract photographing and the confrontation. A week of threatening texts is hard to fit with that timeline.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change 'for a week' to 'for days' or 'since the gala'."
+    }
+  ]
+}

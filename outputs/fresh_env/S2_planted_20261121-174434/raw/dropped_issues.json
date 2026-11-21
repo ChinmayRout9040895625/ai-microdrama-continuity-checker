@@ -1,0 +1,90 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F06",
+    "new_fact_id": "E05-F07",
+    "explanation": "Maya was fired from the diner in Ep2, but Vanessa calls her a waitress in the present tense. This is plausibly just Vanessa's insult for Maya's past job.",
+    "is_real_contradiction": false,
+    "issue_type": "occupation",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed; optionally change to 'a former waitress'."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F04",
+    "new_fact_id": "E06-F13",
+    "explanation": "Sam was critically ill and needed surgery within thirty days, and the episode now shows him recovering, which fits if the surgery has happened. Because the story is only about a week or two in, this is likely consistent and not a real conflict.",
+    "is_real_contradiction": false,
+    "issue_type": "status",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E05-F09",
+    "new_fact_id": "E07-F09",
+    "explanation": "Adrian says it stopped being a contract the night Maya threw coffee on him, but nothing in Ep1 shows her throwing coffee on him; he left her a tip and there was a diner complaint. Also the contract was signed after the diner meeting, so 'stopped being a contract' at that time is inconsistent.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "Optionally add a coffee-throwing moment to Ep1 or reference a different event."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E06-F10",
+    "new_fact_id": "E07-F05",
+    "explanation": "No conflict here; included only in consideration.",
+    "is_real_contradiction": false,
+    "issue_type": "other",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E06-F02",
+    "new_fact_id": "E08-F04",
+    "explanation": "Mia vanished twenty years ago; Maya is 24 (or 22), so losing her at age two (or four) does not fit with 20 years. With age 24 and loss at 4 it fits, but age 2 gives 22, which matches only the later age claim, creating an inconsistent timeline.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "No change needed if age is settled at 24 and loss age is four."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F05",
+    "new_fact_id": "E08-F03",
+    "explanation": "Maya said Grace found her wearing the locket, but Richard says he put the locket on her himself; both can be true since he put it on before she was lost.",
+    "is_real_contradiction": false,
+    "issue_type": "other",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E08-F07",
+    "new_fact_id": "E09-F07",
+    "explanation": "Ep8 showed the DNA report confirming Maya as Mia (99.9% match) and Richard and Maya both accepting it; Derek says 'if the girl is real' as if unverified. This is compatible with Derek wanting to discredit her, so not a clear contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F05",
+    "new_fact_id": "E10-F12",
+    "explanation": "Grace was established as Maya's living adoptive mother in Ep4 and her mother died eight years ago in Ep1; the new fact calls her Grace Collins, killed. The 'killed' detail was not previously established, but death eight years ago is compatible. Accusation of murder is a new claim by Derek, so not necessarily conflicting.",
+    "is_real_contradiction": false,
+    "issue_type": "status",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed; optionally clarify that Grace's death was a killing."
+  }
+]

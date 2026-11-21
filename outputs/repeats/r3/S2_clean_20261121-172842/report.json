@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "run_id": "S2_clean_20261121-172842",
+    "input": "data\\S2_clean",
+    "episodes": 10,
+    "facts_kept": 132,
+    "facts_rejected": 0,
+    "issues_dropped_invalid_ids": 1,
+    "provider": "anthropic",
+    "models": "extract=claude-sonnet-5-5@medium, check=claude-sonnet-5-5@medium",
+    "prompt_version": "v2",
+    "usage": {
+      "calls": 19,
+      "cached_calls": 0,
+      "input_tokens": 85642,
+      "output_tokens": 14336,
+      "seconds": 103.10417008399963
+    },
+    "wall_seconds": 46.0
+  },
+  "issues": [
+    {
+      "id": "E02-F08~E03-F10",
+      "prior": {
+        "id": "E02-F08",
+        "episode": 2,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "status",
+        "target": "Vanessa",
+        "value": "has been fired or told not to return to work after customer complaint; manager is Vanessa",
+        "quote": "A text from her manager: \"Customer complaint. Don't come back.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E03-F10",
+        "episode": 3,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "occupation",
+        "target": null,
+        "value": "marketing director at Cross Tower",
+        "quote": "I'm the marketing director here, sweetheart, which means I know how to spot a cheap product.",
+        "quote_score": 100.0
+      },
+      "issue_type": "occupation",
+      "severity": "high",
+      "explanation": "Ep2 identifies Vanessa as Maya's manager at the diner, but Ep3 says she is the marketing director at Cross Tower, which is a different job.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make the manager in Ep2 a different, unnamed person, or have Ep3 Vanessa admit she owns or manages the diner as a side role."
+    }
+  ]
+}

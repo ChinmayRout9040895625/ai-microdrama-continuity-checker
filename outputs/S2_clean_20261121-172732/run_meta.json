@@ -1,0 +1,19 @@
+{
+  "run_id": "S2_clean_20261121-172732",
+  "input": "data\\S2_clean",
+  "episodes": 10,
+  "facts_kept": 131,
+  "facts_rejected": 0,
+  "issues_dropped_invalid_ids": 0,
+  "provider": "anthropic",
+  "models": "extract=claude-sonnet-5-5@medium, check=claude-sonnet-5-5@medium",
+  "prompt_version": "v2",
+  "usage": {
+    "calls": 19,
+    "cached_calls": 0,
+    "input_tokens": 85127,
+    "output_tokens": 14231,
+    "seconds": 112.11296963691711
+  },
+  "wall_seconds": 46.6
+}

@@ -1,0 +1,1826 @@
+{
+  "Julian Ashford": [
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 33 years old",
+      "quote": "Julian Ashford. Thirty-three. Bought this place for $240 million last week.",
+      "id": "E01-F05"
+    },
+    {
+      "episode": 1,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "new owner of the hotel, bought it for $240 million last week",
+      "quote": "Julian Ashford. Thirty-three. Bought this place for $240 million last week.",
+      "id": "E01-F06"
+    },
+    {
+      "episode": 1,
+      "category": "knowledge",
+      "target": "Leo Bell",
+      "value": "sees Leo's photo and doesn't know who he is",
+      "quote": "Who is that boy?",
+      "id": "E01-F07"
+    },
+    {
+      "episode": 1,
+      "category": "knowledge",
+      "target": "Celeste Ashford",
+      "value": "did not know his mother paid Nora",
+      "quote": "Mother... what did you pay her?",
+      "id": "E01-F17"
+    },
+    {
+      "episode": 2,
+      "category": "age",
+      "target": null,
+      "value": "is 33 years old",
+      "quote": "Julian Ashford (33, tailored charcoal suit, tired green eyes) stares at his mother.",
+      "id": "E02-F01"
+    },
+    {
+      "episode": 2,
+      "category": "timeline",
+      "target": "Nora Bell",
+      "value": "waited at the church three hours on June 9th, 2018",
+      "quote": "June 9th, 2018. I waited at that church for three hours. Where were you?",
+      "id": "E02-F12"
+    },
+    {
+      "episode": 3,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "owner of the hotel, age 32",
+      "quote": "Julian Ashford (32, hotel owner) steps forward, jaw tight.",
+      "id": "E03-F03"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Leo",
+      "value": "Leo has Julian's eyes; Julian does not know who he is",
+      "quote": "Julian stares at the boy's face. At his own eyes looking back.",
+      "id": "E03-F13"
+    },
+    {
+      "episode": 4,
+      "category": "age",
+      "target": null,
+      "value": "is 34 years old",
+      "quote": "JULIAN ASHFORD, 34, stares at the screen.",
+      "id": "E04-F02"
+    },
+    {
+      "episode": 4,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "left Nora at the altar at St. Anne's with 120 guests (claimed by Nora)",
+      "quote": "you left me at the altar of St. Anne's with a dress and a hundred and twenty guests.",
+      "id": "E04-F12"
+    },
+    {
+      "episode": 4,
+      "category": "knowledge",
+      "target": "Nora Bell",
+      "value": "was told Nora took money and called off the wedding (claimed by Julian)",
+      "quote": "I never left. I got a message that you'd taken money and called it off.",
+      "id": "E04-F14"
+    },
+    {
+      "episode": 4,
+      "category": "knowledge",
+      "target": "Sienna Vale",
+      "value": "realizes Sienna wrote the note",
+      "quote": "You wrote the note, Sienna.",
+      "id": "E04-F15"
+    },
+    {
+      "episode": 4,
+      "category": "relationship",
+      "target": "Leo",
+      "value": "is Leo's father, who has not known him",
+      "quote": "Or sign the papers and he never knows his father.",
+      "id": "E04-F16"
+    },
+    {
+      "episode": 4,
+      "category": "knowledge",
+      "target": "Leo",
+      "value": "sees Leo has his grandfather's eyes",
+      "quote": "He has my grandfather's eyes.",
+      "id": "E04-F17"
+    },
+    {
+      "episode": 5,
+      "category": "age",
+      "target": null,
+      "value": "is 35 years old",
+      "quote": "JULIAN ASHFORD (35, tailored coat, jaw tight) holds an identical phone.",
+      "id": "E05-F02"
+    },
+    {
+      "episode": 5,
+      "category": "possession",
+      "target": "Grandview Hotel",
+      "value": "owns the Grandview Hotel",
+      "quote": "For five years I scrubbed floors in your hotel to feed your son.",
+      "id": "E05-F08"
+    },
+    {
+      "episode": 5,
+      "category": "knowledge",
+      "target": "Nora Bell",
+      "value": "fears Celeste will use Nora's presence against her in court",
+      "quote": "If she sees you, she'll use it against you in court.",
+      "id": "E05-F14"
+    },
+    {
+      "episode": 6,
+      "category": "age",
+      "target": null,
+      "value": "is 36 years old",
+      "quote": "JULIAN ASHFORD (36, soaked tailored suit) stares at the signature page.",
+      "id": "E06-F02"
+    },
+    {
+      "episode": 6,
+      "category": "knowledge",
+      "target": "signature",
+      "value": "says the signature is forged because he never loops his J",
+      "quote": "The J is wrong. I never loop it. Someone practiced this.",
+      "id": "E06-F10"
+    },
+    {
+      "episode": 6,
+      "category": "timeline",
+      "target": "Nora Bell",
+      "value": "disappeared in 2018, the night before their wedding (claimed by Nora)",
+      "quote": "He was gone in 2018. The night before our wedding. How could he sign anything in 2019?",
+      "id": "E06-F11"
+    },
+    {
+      "episode": 6,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "was Nora's fiancé; wedding was planned",
+      "quote": "He was gone in 2018. The night before our wedding. How could he sign anything in 2019?",
+      "id": "E06-F12"
+    },
+    {
+      "episode": 6,
+      "category": "relationship",
+      "target": "Leo",
+      "value": "is apparently Leo's father; Nora treats Leo as her son",
+      "quote": "You signed Leo over before he could even walk.",
+      "id": "E06-F13"
+    },
+    {
+      "episode": 6,
+      "category": "relationship",
+      "target": "Nora Bell's father",
+      "value": "photographed with Nora's late father while wearing a hospital bracelet",
+      "quote": "Julian, hospital bracelet on his wrist, and Nora's late father beside him.",
+      "id": "E06-F23"
+    },
+    {
+      "episode": 7,
+      "category": "timeline",
+      "target": "Frank Bell",
+      "value": "was in a hospital bed at St. Luke's in 2018 beside Frank Bell, aged 27",
+      "quote": "JULIAN (then 27) in a hospital bracelet, seated beside Nora's late father, FRANK BELL.",
+      "id": "E07-F05"
+    },
+    {
+      "episode": 7,
+      "category": "age",
+      "target": null,
+      "value": "is 34 years old",
+      "quote": "JULIAN ASHFORD (34, tailored suit, shaken)",
+      "id": "E07-F06"
+    },
+    {
+      "episode": 7,
+      "category": "possession",
+      "target": null,
+      "value": "holds forged adoption papers",
+      "quote": "the forged adoption papers in his fist",
+      "id": "E07-F10"
+    },
+    {
+      "episode": 7,
+      "category": "knowledge",
+      "target": "Celeste Ashford",
+      "value": "does not know Celeste paid Nora's father; learns of it now",
+      "quote": "Paid him... what?",
+      "id": "E07-F17"
+    },
+    {
+      "episode": 8,
+      "category": "age",
+      "target": null,
+      "value": "is 32 years old",
+      "quote": "Julian (32, tailored charcoal suit) grips the hospital photo.",
+      "id": "E08-F01"
+    },
+    {
+      "episode": 8,
+      "category": "timeline",
+      "target": null,
+      "value": "seven years ago woke in St. Margaret's hospital with no memory of three weeks",
+      "quote": "Seven years ago, I woke up in St. Margaret's with no memory of three weeks.",
+      "id": "E08-F08"
+    },
+    {
+      "episode": 8,
+      "category": "status",
+      "target": null,
+      "value": "has amnesia for three weeks seven years ago",
+      "quote": "I woke up in St. Margaret's with no memory of three weeks.",
+      "id": "E08-F09"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": "Celeste",
+      "value": "learns the signature is not Frank's; Frank wrote sevens with a slash",
+      "quote": "This isn't his handwriting. Frank wrote his sevens with a slash. This one doesn't have it.",
+      "id": "E08-F15"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": "Leo",
+      "value": "does not know Leo's age or that he may be his son",
+      "quote": "How old is he, Nora?",
+      "id": "E08-F19"
+    },
+    {
+      "episode": 9,
+      "category": "occupation",
+      "target": "hotel",
+      "value": "hotel owner",
+      "quote": "Julian ASHFORD (34, hotel owner, tailored suit)",
+      "id": "E09-F03"
+    },
+    {
+      "episode": 9,
+      "category": "age",
+      "target": null,
+      "value": "is 34 years old",
+      "quote": "Julian ASHFORD (34, hotel owner, tailored suit)",
+      "id": "E09-F04"
+    },
+    {
+      "episode": 9,
+      "category": "knowledge",
+      "target": "Leo Bell",
+      "value": "begins to realize Leo may be his son",
+      "quote": "Nora. How old is he?",
+      "id": "E09-F09"
+    },
+    {
+      "episode": 9,
+      "category": "timeline",
+      "target": "Nora Bell",
+      "value": "seven years since the hospital; six years and some months since the night he vanished",
+      "quote": "Seven years since the hospital. Six years and some months since the night he vanished.",
+      "id": "E09-F10"
+    },
+    {
+      "episode": 9,
+      "category": "knowledge",
+      "target": "receipt",
+      "value": "claims the signature on the receipt is forged",
+      "quote": "The signature is forged, Mother. Frank Bell never wrote an F like that.",
+      "id": "E09-F15"
+    },
+    {
+      "episode": 9,
+      "category": "other",
+      "target": "Leo Bell",
+      "value": "demands a DNA test tonight",
+      "quote": "Before you take that, Officer, I need a DNA test. Tonight.",
+      "id": "E09-F20"
+    },
+    {
+      "episode": 10,
+      "category": "age",
+      "target": null,
+      "value": "is 32 years old",
+      "quote": "JULIAN ASHFORD (32, hotel owner, tailored suit, unraveling)",
+      "id": "E10-F06"
+    },
+    {
+      "episode": 10,
+      "category": "occupation",
+      "target": null,
+      "value": "hotel owner",
+      "quote": "JULIAN ASHFORD (32, hotel owner, tailored suit, unraveling)",
+      "id": "E10-F07"
+    },
+    {
+      "episode": 10,
+      "category": "timeline",
+      "target": "Nora Bell",
+      "value": "seven years ago he woke in a Zurich clinic with a fake chart and was told Nora left him",
+      "quote": "Seven years, Nora. I woke up in a Zurich clinic with a fake chart and a story that you'd left me.",
+      "id": "E10-F08"
+    },
+    {
+      "episode": 10,
+      "category": "status",
+      "target": "Leo Bell",
+      "value": "paternity test underway, results in two hours",
+      "quote": "Results in two hours.",
+      "id": "E10-F18"
+    },
+    {
+      "episode": 11,
+      "category": "age",
+      "target": null,
+      "value": "is 35 years old",
+      "quote": "Julian Ashford (35) stares at a clock: 11:14 PM.",
+      "id": "E11-F05"
+    },
+    {
+      "episode": 11,
+      "category": "timeline",
+      "target": null,
+      "value": "DNA test results due in ninety minutes at 11:14 PM",
+      "quote": "Ninety minutes left on the DNA test.",
+      "id": "E11-F08"
+    },
+    {
+      "episode": 11,
+      "category": "location",
+      "target": "Grandview Hotel",
+      "value": "has a penthouse office at the Grandview",
+      "quote": "INT. GRANDVIEW - PENTHOUSE OFFICE - CONTINUOUS",
+      "id": "E11-F15"
+    },
+    {
+      "episode": 12,
+      "category": "age",
+      "target": null,
+      "value": "is 34 years old",
+      "quote": "JULIAN ASHFORD (34, hotel owner) grips the phone, Celeste's voice on speaker.",
+      "id": "E12-F01"
+    },
+    {
+      "episode": 12,
+      "category": "occupation",
+      "target": null,
+      "value": "hotel owner",
+      "quote": "JULIAN ASHFORD (34, hotel owner) grips the phone, Celeste's voice on speaker.",
+      "id": "E12-F02"
+    },
+    {
+      "episode": 12,
+      "category": "timeline",
+      "target": "Nora Bell",
+      "value": "left Nora the night before their wedding because his mother threatened her",
+      "quote": "I left you the night before our wedding because my mother threatened you.",
+      "id": "E12-F06"
+    },
+    {
+      "episode": 12,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "was engaged to Nora in the past; never stopped looking for her",
+      "quote": "I never stopped looking for you.",
+      "id": "E12-F07"
+    },
+    {
+      "episode": 12,
+      "category": "knowledge",
+      "target": "Leo Bell",
+      "value": "Leo asks if Julian is his daddy; Julian nods (believes he is father)",
+      "quote": "Are you my daddy?",
+      "id": "E12-F15"
+    }
+  ],
+  "Nora Bell": [
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 29 years old",
+      "quote": "NORA BELL (29, navy housekeeper uniform, tired eyes) freezes, her cart rattling to a stop.",
+      "id": "E01-F01"
+    },
+    {
+      "episode": 1,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "works as a housekeeper at Grandview Hotel, Boston",
+      "quote": "Nora, you're on the penthouse today.",
+      "id": "E01-F02"
+    },
+    {
+      "episode": 1,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "past romantic history; wedding apparently ended with empty church on June 14, 2018",
+      "quote": "a white wedding dress, an empty church, rain on the steps. June 14, 2018.",
+      "id": "E01-F08"
+    },
+    {
+      "episode": 1,
+      "category": "location",
+      "target": "Penthouse Suite",
+      "value": "is cleaning Julian's penthouse at 7:03 AM when he arrives",
+      "quote": "Nora wipes a mirror, hands shaking. Behind her, the elevator DINGS.",
+      "id": "E01-F18"
+    },
+    {
+      "episode": 2,
+      "category": "age",
+      "target": null,
+      "value": "is 29 years old",
+      "quote": "Nora Bell (29, gray housekeeping uniform) grips her cart handle.",
+      "id": "E02-F02"
+    },
+    {
+      "episode": 2,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "works as a housekeeper",
+      "quote": "Housekeepers say a lot of things for a bigger paycheck.",
+      "id": "E02-F07"
+    },
+    {
+      "episode": 2,
+      "category": "knowledge",
+      "target": "money",
+      "value": "denies ever taking the money",
+      "quote": "I never touched that money.",
+      "id": "E02-F10"
+    },
+    {
+      "episode": 2,
+      "category": "location",
+      "target": "Boston",
+      "value": "allegedly left Boston the week after being paid (claimed by Celeste)",
+      "quote": "She left Boston the very next week.",
+      "id": "E02-F11"
+    },
+    {
+      "episode": 2,
+      "category": "timeline",
+      "target": "Julian Ashford",
+      "value": "waited for Julian at Harbor Chapel; he never came",
+      "quote": "Waiting for YOU. At Harbor Chapel. You never came.",
+      "id": "E02-F13"
+    },
+    {
+      "episode": 2,
+      "category": "possession",
+      "target": "locker 114",
+      "value": "her housekeeping locker is 114",
+      "quote": "That's my locker.",
+      "id": "E02-F15"
+    },
+    {
+      "episode": 2,
+      "category": "knowledge",
+      "target": "envelope",
+      "value": "has never seen the envelope before",
+      "quote": "Nora's face drains of color. She has never seen it before.",
+      "id": "E02-F17"
+    },
+    {
+      "episode": 3,
+      "category": "age",
+      "target": null,
+      "value": "is 29 years old",
+      "quote": "Nora Bell (29) stares at her open locker, frozen.",
+      "id": "E03-F02"
+    },
+    {
+      "episode": 3,
+      "category": "possession",
+      "target": "locker 114",
+      "value": "$40,000 in cash found in her locker 114",
+      "quote": "Forty thousand dollars. Found in locker 114. Yours.",
+      "id": "E03-F05"
+    },
+    {
+      "episode": 3,
+      "category": "knowledge",
+      "target": "note",
+      "value": "denies writing the note; claims it is forged (claimed by Nora)",
+      "quote": "It looks like my handwriting. I didn't write it.",
+      "id": "E03-F06"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Leo",
+      "value": "Leo appears to be Nora's son",
+      "quote": "Leo's gone? What do you mean he left with a woman?",
+      "id": "E03-F15"
+    },
+    {
+      "episode": 4,
+      "category": "age",
+      "target": null,
+      "value": "is 31 years old",
+      "quote": "NORA BELL, 31, in her gray housekeeper uniform, grips the desk.",
+      "id": "E04-F03"
+    },
+    {
+      "episode": 4,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "works as a housekeeper",
+      "quote": "NORA BELL, 31, in her gray housekeeper uniform, grips the desk.",
+      "id": "E04-F06"
+    },
+    {
+      "episode": 4,
+      "category": "relationship",
+      "target": "Leo",
+      "value": "is Leo's mother",
+      "quote": "That's my son. Your mother has my son.",
+      "id": "E04-F08"
+    },
+    {
+      "episode": 4,
+      "category": "timeline",
+      "target": "Julian Ashford",
+      "value": "wedding was six years ago",
+      "quote": "Six years ago you left me at the altar of St. Anne's",
+      "id": "E04-F13"
+    },
+    {
+      "episode": 5,
+      "category": "age",
+      "target": null,
+      "value": "is 32 years old",
+      "quote": "NORA BELL (32, housekeeper's uniform, shaking) holds her phone out.",
+      "id": "E05-F01"
+    },
+    {
+      "episode": 5,
+      "category": "relationship",
+      "target": "Leo",
+      "value": "Leo is Julian's son and Nora cares for him as a mother figure",
+      "quote": "For five years I scrubbed floors in your hotel to feed your son.",
+      "id": "E05-F05"
+    },
+    {
+      "episode": 5,
+      "category": "occupation",
+      "target": null,
+      "value": "works as a housekeeper at Grandview Hotel",
+      "quote": "For five years I scrubbed floors in your hotel to feed your son.",
+      "id": "E05-F06"
+    },
+    {
+      "episode": 5,
+      "category": "timeline",
+      "target": "Julian Ashford",
+      "value": "worked five years scrubbing floors in Julian's hotel",
+      "quote": "For five years I scrubbed floors in your hotel to feed your son.",
+      "id": "E05-F07"
+    },
+    {
+      "episode": 5,
+      "category": "possession",
+      "target": null,
+      "value": "has a master key card which she gives to Julian",
+      "quote": "Nora slams her master key card into Julian's palm.",
+      "id": "E05-F15"
+    },
+    {
+      "episode": 6,
+      "category": "age",
+      "target": null,
+      "value": "is 32 years old",
+      "quote": "NORA BELL (32, still in her gray Grandview housekeeping uniform) snatches the page.",
+      "id": "E06-F03"
+    },
+    {
+      "episode": 6,
+      "category": "occupation",
+      "target": null,
+      "value": "works as a housekeeper at Grandview",
+      "quote": "NORA BELL (32, still in her gray Grandview housekeeping uniform) snatches the page.",
+      "id": "E06-F07"
+    },
+    {
+      "episode": 6,
+      "category": "location",
+      "target": null,
+      "value": "lives in an apartment in Dorchester",
+      "quote": "Your apartment in Dorchester. Your second job. They'll call it unfit.",
+      "id": "E06-F17"
+    },
+    {
+      "episode": 6,
+      "category": "occupation",
+      "target": null,
+      "value": "has a second job",
+      "quote": "Your apartment in Dorchester. Your second job. They'll call it unfit.",
+      "id": "E06-F18"
+    },
+    {
+      "episode": 6,
+      "category": "status",
+      "target": null,
+      "value": "Nora's father is dead",
+      "quote": "Nora's late father beside him.",
+      "id": "E06-F22"
+    },
+    {
+      "episode": 7,
+      "category": "age",
+      "target": null,
+      "value": "is 32 years old",
+      "quote": "NORA BELL (32, housekeeper, still in her Grandview uniform)",
+      "id": "E07-F01"
+    },
+    {
+      "episode": 7,
+      "category": "occupation",
+      "target": "Ashford Estate",
+      "value": "is a housekeeper, wearing a Grandview uniform",
+      "quote": "NORA BELL (32, housekeeper, still in her Grandview uniform)",
+      "id": "E07-F02"
+    },
+    {
+      "episode": 7,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "Julian left her at the altar (claimed by Nora)",
+      "quote": "Ask your mother why you left me at the altar. Ask her what she paid my father.",
+      "id": "E07-F15"
+    },
+    {
+      "episode": 7,
+      "category": "relationship",
+      "target": "Leo",
+      "value": "acts as Leo's caretaker, calls him baby",
+      "quote": "I'm coming, baby.",
+      "id": "E07-F18"
+    },
+    {
+      "episode": 8,
+      "category": "age",
+      "target": null,
+      "value": "is 29 years old",
+      "quote": "Nora (29, still in her gray Grandview uniform)",
+      "id": "E08-F03"
+    },
+    {
+      "episode": 8,
+      "category": "occupation",
+      "target": null,
+      "value": "wears a Grandview uniform, likely works at Grandview",
+      "quote": "Nora (29, still in her gray Grandview uniform)",
+      "id": "E08-F07"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": "Julian",
+      "value": "believes Julian took a check and left her at the altar (told by Frank)",
+      "quote": "He said you took a check and left me at the altar.",
+      "id": "E08-F12"
+    },
+    {
+      "episode": 8,
+      "category": "relationship",
+      "target": "Julian",
+      "value": "was left at the altar by Julian seven years ago (as she believed)",
+      "quote": "He told me you ran. He said you took a check and left me at the altar.",
+      "id": "E08-F13"
+    },
+    {
+      "episode": 8,
+      "category": "relationship",
+      "target": "Leo",
+      "value": "Leo is the child Sienna threatens to take via Child Services",
+      "quote": "You'd use a seven-year-old as a weapon?",
+      "id": "E08-F21"
+    },
+    {
+      "episode": 9,
+      "category": "occupation",
+      "target": "Grandview",
+      "value": "housekeeper at Grandview, wears gray uniform",
+      "quote": "NORA BELL (31, housekeeper, still in her gray Grandview uniform)",
+      "id": "E09-F06"
+    },
+    {
+      "episode": 9,
+      "category": "age",
+      "target": null,
+      "value": "is 31 years old",
+      "quote": "NORA BELL (31, housekeeper, still in her gray Grandview uniform)",
+      "id": "E09-F07"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Leo Bell",
+      "value": "is Leo's mother",
+      "quote": "Mama... why does that man look like me?",
+      "id": "E09-F08"
+    },
+    {
+      "episode": 10,
+      "category": "age",
+      "target": null,
+      "value": "is 29 years old",
+      "quote": "NORA BELL (29, hotel housekeeper, tired but proud)",
+      "id": "E10-F04"
+    },
+    {
+      "episode": 10,
+      "category": "occupation",
+      "target": null,
+      "value": "hotel housekeeper",
+      "quote": "NORA BELL (29, hotel housekeeper, tired but proud)",
+      "id": "E10-F05"
+    },
+    {
+      "episode": 10,
+      "category": "knowledge",
+      "target": "Celeste Ashford",
+      "value": "believes Celeste sent a letter in Julian's handwriting saying he chose inheritance over her",
+      "quote": "Your mother sent me a letter in your handwriting. It said you'd chosen your inheritance over me.",
+      "id": "E10-F09"
+    },
+    {
+      "episode": 11,
+      "category": "age",
+      "target": null,
+      "value": "is 32 years old",
+      "quote": "CLOSE ON Nora Bell (32) at the window.",
+      "id": "E11-F01"
+    },
+    {
+      "episode": 11,
+      "category": "location",
+      "target": "Grandview Hotel",
+      "value": "is at the Grandview Hotel staff lounge, works there",
+      "quote": "INT. GRANDVIEW HOTEL - STAFF LOUNGE - NIGHT",
+      "id": "E11-F14"
+    },
+    {
+      "episode": 12,
+      "category": "occupation",
+      "target": null,
+      "value": "housekeeper, age 31",
+      "quote": "NORA BELL (31, housekeeper) sits beside him, shaking.",
+      "id": "E12-F03"
+    },
+    {
+      "episode": 12,
+      "category": "relationship",
+      "target": "Leo Bell",
+      "value": "is Leo's mother",
+      "quote": "Leo, baby, drop to the floor. Like we practiced.",
+      "id": "E12-F14"
+    }
+  ],
+  "Celeste Ashford": [
+    {
+      "episode": 1,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "Julian turns slowly toward his mother.",
+      "id": "E01-F12"
+    },
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 60 years old",
+      "quote": "CELESTE ASHFORD (60, pearls, ice-blue eyes) and SIENNA VALE (30, red dress, diamond ring) step out.",
+      "id": "E01-F13"
+    },
+    {
+      "episode": 1,
+      "category": "knowledge",
+      "target": "Nora Bell",
+      "value": "previously paid Nora to stay away and knows her",
+      "quote": "Hello again, dear. I thought I paid you enough to stay gone.",
+      "id": "E01-F16"
+    },
+    {
+      "episode": 2,
+      "category": "age",
+      "target": null,
+      "value": "is 61 years old",
+      "quote": "Celeste Ashford (61, pearls, ice-cold calm) smooths her sleeve.",
+      "id": "E02-F03"
+    },
+    {
+      "episode": 2,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "Mother. Say it again. You paid her?",
+      "id": "E02-F08"
+    },
+    {
+      "episode": 2,
+      "category": "knowledge",
+      "target": "Nora Bell",
+      "value": "claims she paid Nora $50,000 to leave (claimed by Celeste)",
+      "quote": "Fifty thousand dollars. She took it, Julian. She left Boston the very next week.",
+      "id": "E02-F09"
+    },
+    {
+      "episode": 2,
+      "category": "knowledge",
+      "target": "Nora Bell",
+      "value": "told Nora that Julian had changed his mind (claimed by Celeste)",
+      "quote": "Only the truth. That you'd changed your mind.",
+      "id": "E02-F14"
+    },
+    {
+      "episode": 2,
+      "category": "knowledge",
+      "target": "envelope",
+      "value": "appears complicit in the envelope; unfazed, exchanged glance with Sienna",
+      "quote": "Sienna glances at Celeste. Celeste doesn't blink.",
+      "id": "E02-F18"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "shares the Ashford surname, likely Julian's relative",
+      "quote": "Ms. Ashford said there was a theft. Celeste. At 9:15.",
+      "id": "E03-F14"
+    },
+    {
+      "episode": 4,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "Your mother has my son.",
+      "id": "E04-F09"
+    },
+    {
+      "episode": 4,
+      "category": "possession",
+      "target": "Leo",
+      "value": "has taken Leo from Nora",
+      "quote": "Your mother took the boy to the Ashford estate in Brookline.",
+      "id": "E04-F10"
+    },
+    {
+      "episode": 4,
+      "category": "knowledge",
+      "target": "Nora Bell",
+      "value": "Celeste's number sent Julian the photo of Leo; unknown sender texted Nora to come alone or sign papers",
+      "quote": "Beside her, Julian's phone lights up. Same photo. Caller ID: MOTHER.",
+      "id": "E04-F21"
+    },
+    {
+      "episode": 5,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "She knows. My mother has always known.",
+      "id": "E05-F10"
+    },
+    {
+      "episode": 5,
+      "category": "knowledge",
+      "target": "Leo",
+      "value": "has always known about Leo (claimed by Julian)",
+      "quote": "She knows. My mother has always known.",
+      "id": "E05-F11"
+    },
+    {
+      "episode": 5,
+      "category": "other",
+      "target": null,
+      "value": "doubled security at Brookline: two guards at front, one at garden door",
+      "quote": "Celeste doubled security. Two guards at the front, one at the garden door.",
+      "id": "E05-F12"
+    },
+    {
+      "episode": 5,
+      "category": "other",
+      "target": "Julian Ashford",
+      "value": "demands Julian sign a release by midnight in exchange for $2 million and a one-way ticket to Seattle",
+      "quote": "Sign the release by midnight. $2 million and a one-way ticket to Seattle.",
+      "id": "E05-F13"
+    },
+    {
+      "episode": 6,
+      "category": "age",
+      "target": null,
+      "value": "is 64 years old",
+      "quote": "CELESTE ASHFORD (64, pearls, cold eyes) steps onto the porch holding a second folder.",
+      "id": "E06-F06"
+    },
+    {
+      "episode": 6,
+      "category": "location",
+      "target": null,
+      "value": "is at the Ashford estate in Brookline",
+      "quote": "EXT. ASHFORD ESTATE GATE, BROOKLINE - NIGHT, 11:14 PM",
+      "id": "E06-F20"
+    },
+    {
+      "episode": 6,
+      "category": "knowledge",
+      "target": "Julian Ashford",
+      "value": "claims to know the real reason Julian disappeared",
+      "quote": "Show her the real reason you disappeared, Julian.",
+      "id": "E06-F21"
+    },
+    {
+      "episode": 7,
+      "category": "age",
+      "target": null,
+      "value": "is 61 years old",
+      "quote": "Celeste (61, pearls, ice-calm) slides the photo into her pocket.",
+      "id": "E07-F07"
+    },
+    {
+      "episode": 7,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "Ask my son. If he'll tell you.",
+      "id": "E07-F08"
+    },
+    {
+      "episode": 7,
+      "category": "knowledge",
+      "target": "Frank Bell",
+      "value": "paid Nora's father money (claimed by Nora)",
+      "quote": "Ask your mother why you left me at the altar. Ask her what she paid my father.",
+      "id": "E07-F16"
+    },
+    {
+      "episode": 8,
+      "category": "age",
+      "target": null,
+      "value": "is 60 years old",
+      "quote": "Celeste (60, pearls, ice-calm)",
+      "id": "E08-F02"
+    },
+    {
+      "episode": 8,
+      "category": "relationship",
+      "target": "Julian",
+      "value": "is Julian's mother",
+      "quote": "What did you pay him, Mother?",
+      "id": "E08-F06"
+    },
+    {
+      "episode": 8,
+      "category": "possession",
+      "target": "Frank Bell",
+      "value": "has a receipt for $200,000 allegedly signed by Frank (claimed by Celeste)",
+      "quote": "Two hundred thousand dollars. Frank signed for it himself.",
+      "id": "E08-F14"
+    },
+    {
+      "episode": 8,
+      "category": "location",
+      "target": null,
+      "value": "keeps a safe in the Ashford Estate study",
+      "quote": "Celeste opens a safe with trembling fingers. She pulls out a bank receipt.",
+      "id": "E08-F16"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "The signature is forged, Mother. Frank Bell never wrote an F like that.",
+      "id": "E09-F11"
+    },
+    {
+      "episode": 9,
+      "category": "age",
+      "target": null,
+      "value": "is 62 years old",
+      "quote": "CELESTE ASHFORD (62, pearls, ice-cold) steps between them.",
+      "id": "E09-F12"
+    },
+    {
+      "episode": 9,
+      "category": "possession",
+      "target": "Frank Bell",
+      "value": "holds receipt for $200,000 paid to Nora's father (claimed by Celeste)",
+      "quote": "I have the receipt. Two hundred thousand dollars, paid to her father.",
+      "id": "E09-F13"
+    },
+    {
+      "episode": 10,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "Your mother sent me a letter in your handwriting.",
+      "id": "E10-F10"
+    },
+    {
+      "episode": 10,
+      "category": "age",
+      "target": null,
+      "value": "is 61 years old",
+      "quote": "CELESTE ASHFORD (61, silver hair, pearls)",
+      "id": "E10-F11"
+    },
+    {
+      "episode": 10,
+      "category": "knowledge",
+      "target": "Leo Bell",
+      "value": "secretly texted 'Do it now' as a van with a man holding Leo's photo arrives",
+      "quote": "Celeste quietly lifts her phone and texts: \"Do it now.",
+      "id": "E10-F19"
+    },
+    {
+      "episode": 11,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "Julian, your mother wired $50,000 to a man named Dutch this afternoon.",
+      "id": "E11-F09"
+    },
+    {
+      "episode": 11,
+      "category": "possession",
+      "target": "Dutch",
+      "value": "wired $50,000 to Dutch this afternoon (claimed by Sienna)",
+      "quote": "your mother wired $50,000 to a man named Dutch this afternoon. I saw the statement.",
+      "id": "E11-F10"
+    },
+    {
+      "episode": 11,
+      "category": "knowledge",
+      "target": "Leo",
+      "value": "orchestrated Leo's kidnapping and demands Julian delete the DNA test results",
+      "quote": "The boy is safe, if the test results never reach you. Delete them, and he comes home.",
+      "id": "E11-F13"
+    },
+    {
+      "episode": 12,
+      "category": "knowledge",
+      "target": "Leo Bell",
+      "value": "threatens to make Leo disappear unless Julian deletes DNA results",
+      "quote": "Delete the DNA results, Julian. Tonight. Or Leo, age six, disappears for good.",
+      "id": "E12-F05"
+    },
+    {
+      "episode": 12,
+      "category": "possession",
+      "target": "Dutch",
+      "value": "paid Dutch $50,000; Sienna has recording",
+      "quote": "Celeste paid Dutch $50,000. I recorded every word of it.",
+      "id": "E12-F11"
+    },
+    {
+      "episode": 12,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's mother",
+      "quote": "I left you the night before our wedding because my mother threatened you.",
+      "id": "E12-F13"
+    },
+    {
+      "episode": 12,
+      "category": "knowledge",
+      "target": "Julian Ashford",
+      "value": "reveals hotel belongs to Leo's father, who is not Julian",
+      "quote": "The hotel isn't yours. It's Leo's father's... and he isn't you.",
+      "id": "E12-F16"
+    }
+  ],
+  "Leo Bell": [
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 5 years old",
+      "quote": "Photo of LEO BELL (5, gap-toothed grin, dark curls, Julian's exact green eyes).",
+      "id": "E01-F09"
+    },
+    {
+      "episode": 1,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "has Julian's exact green eyes, implying he is Julian's son",
+      "quote": "Photo of LEO BELL (5, gap-toothed grin, dark curls, Julian's exact green eyes).",
+      "id": "E01-F10"
+    },
+    {
+      "episode": 3,
+      "category": "age",
+      "target": null,
+      "value": "is a boy of 6",
+      "quote": "a small boy, 6, holding the hand of Celeste Ashford",
+      "id": "E03-F10"
+    },
+    {
+      "episode": 3,
+      "category": "status",
+      "target": "Celeste Ashford",
+      "value": "left school with a woman; seen on footage leaving the hotel lobby with Celeste",
+      "quote": "Leo's gone? What do you mean he left with a woman?",
+      "id": "E03-F11"
+    },
+    {
+      "episode": 3,
+      "category": "location",
+      "target": null,
+      "value": "attends Boston Public Elementary",
+      "quote": "A school nurse, Boston Public Elementary.",
+      "id": "E03-F12"
+    },
+    {
+      "episode": 4,
+      "category": "age",
+      "target": null,
+      "value": "is 6 years old",
+      "quote": "Leo, 6, clutching a stuffed fox, his hand in Celeste's.",
+      "id": "E04-F01"
+    },
+    {
+      "episode": 4,
+      "category": "location",
+      "target": "Ashford estate",
+      "value": "is at the Ashford estate in Brookline",
+      "quote": "Your mother took the boy to the Ashford estate in Brookline.",
+      "id": "E04-F11"
+    },
+    {
+      "episode": 5,
+      "category": "age",
+      "target": null,
+      "value": "is six years old",
+      "quote": "He's six, Julian. He's afraid of the dark.",
+      "id": "E05-F03"
+    },
+    {
+      "episode": 5,
+      "category": "status",
+      "target": null,
+      "value": "is being held at Brookline by Julian's family; afraid of the dark",
+      "quote": "Or Leo stays with his family.",
+      "id": "E05-F04"
+    },
+    {
+      "episode": 5,
+      "category": "location",
+      "target": null,
+      "value": "is in an upstairs room at the Ashford estate, Brookline",
+      "quote": "Upstairs, a small window glows. A tiny silhouette presses against the glass.",
+      "id": "E05-F16"
+    },
+    {
+      "episode": 6,
+      "category": "age",
+      "target": null,
+      "value": "is 6 years old",
+      "quote": "LEO (6) mouths one word: \"Mom.",
+      "id": "E06-F05"
+    },
+    {
+      "episode": 6,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "Leo calls Nora \"Mom\"",
+      "quote": "LEO (6) mouths one word: \"Mom.",
+      "id": "E06-F14"
+    },
+    {
+      "episode": 6,
+      "category": "location",
+      "target": null,
+      "value": "is inside the Ashford estate upstairs",
+      "quote": "Behind Sienna, the upstairs curtain moves. A small hand presses against the glass.",
+      "id": "E06-F19"
+    },
+    {
+      "episode": 7,
+      "category": "age",
+      "target": null,
+      "value": "is 5 years old",
+      "quote": "At the second-floor window, LEO (5) presses his palm to the glass.",
+      "id": "E07-F13"
+    },
+    {
+      "episode": 7,
+      "category": "location",
+      "target": null,
+      "value": "is at the second-floor window of the Ashford estate",
+      "quote": "At the second-floor window, LEO (5) presses his palm to the glass.",
+      "id": "E07-F14"
+    },
+    {
+      "episode": 8,
+      "category": "age",
+      "target": null,
+      "value": "is 7 years old",
+      "quote": "Leo (7, yellow raincoat) presses his hand to the glass.",
+      "id": "E08-F05"
+    },
+    {
+      "episode": 8,
+      "category": "relationship",
+      "target": "Julian",
+      "value": "has eyes the same gray as Julian's, implying he is Julian's son",
+      "quote": "Julian stares at the boy's eyes, the exact gray of his own.",
+      "id": "E08-F18"
+    },
+    {
+      "episode": 9,
+      "category": "age",
+      "target": null,
+      "value": "is 6 years old, turned six in March",
+      "quote": "He turned six in March.",
+      "id": "E09-F05"
+    },
+    {
+      "episode": 10,
+      "category": "age",
+      "target": null,
+      "value": "is 6 years old",
+      "quote": "CLOSE ON Leo Bell, 6, gripping Nora's hand.",
+      "id": "E10-F01"
+    },
+    {
+      "episode": 10,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "Nora is Leo's mother",
+      "quote": "Mom... why does he look like me?",
+      "id": "E10-F02"
+    },
+    {
+      "episode": 10,
+      "category": "identity",
+      "target": "Julian Ashford",
+      "value": "resembles Julian: same dark eyes and crooked eyebrow (implied father)",
+      "quote": "Same dark eyes. Same crooked eyebrow.",
+      "id": "E10-F03"
+    },
+    {
+      "episode": 11,
+      "category": "age",
+      "target": null,
+      "value": "is 7 years old",
+      "quote": "Leo (7) is gone from the couch.",
+      "id": "E11-F02"
+    },
+    {
+      "episode": 11,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "is Nora's son",
+      "quote": "A man in a black cap lifts a photo of her son.",
+      "id": "E11-F03"
+    },
+    {
+      "episode": 11,
+      "category": "status",
+      "target": null,
+      "value": "kidnapped from the hotel staff lounge, taken in a gray van",
+      "quote": "They took him, Julian. They took our son.",
+      "id": "E11-F04"
+    },
+    {
+      "episode": 11,
+      "category": "location",
+      "target": null,
+      "value": "van turned onto Atlantic Avenue from loading dock",
+      "quote": "the van's taillights turn onto Atlantic Avenue.",
+      "id": "E11-F16"
+    },
+    {
+      "episode": 12,
+      "category": "age",
+      "target": null,
+      "value": "is six years old",
+      "quote": "Or Leo, age six, disappears for good.",
+      "id": "E12-F04"
+    },
+    {
+      "episode": 12,
+      "category": "location",
+      "target": null,
+      "value": "held captive in abandoned warehouse at Pier 9",
+      "quote": "LEO BELL (6) sits on a crate clutching his toy dinosaur.",
+      "id": "E12-F09"
+    }
+  ],
+  "Sienna Vale": [
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 30 years old",
+      "quote": "CELESTE ASHFORD (60, pearls, ice-blue eyes) and SIENNA VALE (30, red dress, diamond ring) step out.",
+      "id": "E01-F14"
+    },
+    {
+      "episode": 1,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "wears a diamond ring and calls Julian 'Darling'; apparently his fiancée/partner",
+      "quote": "Darling, why is the help in your suite?",
+      "id": "E01-F15"
+    },
+    {
+      "episode": 2,
+      "category": "age",
+      "target": null,
+      "value": "is 31 years old",
+      "quote": "Sienna Vale (31, designer white dress, diamond ring) steps between them.",
+      "id": "E02-F04"
+    },
+    {
+      "episode": 2,
+      "category": "location",
+      "target": "Grandview Hotel",
+      "value": "present in the penthouse suite with Julian and Celeste",
+      "quote": "INT. GRANDVIEW HOTEL, PENTHOUSE SUITE - DAY",
+      "id": "E02-F19"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's fiancee, age 28",
+      "quote": "Sienna Vale (28, Julian's fiancee) appears at the corner",
+      "id": "E03-F04"
+    },
+    {
+      "episode": 3,
+      "category": "other",
+      "target": "Nora Bell",
+      "value": "has blue ink smudged on her fingertips, hinting she forged the note",
+      "quote": "Nora notices Sienna's fingertips: smudged with blue ink.",
+      "id": "E03-F07"
+    },
+    {
+      "episode": 4,
+      "category": "age",
+      "target": null,
+      "value": "is 29 years old",
+      "quote": "SIENNA VALE, 29, in a white designer coat, blocks the elevator.",
+      "id": "E04-F04"
+    },
+    {
+      "episode": 4,
+      "category": "status",
+      "target": null,
+      "value": "has blue ink stains on her fingertips",
+      "quote": "Blue ink stains her fingertips.",
+      "id": "E04-F20"
+    },
+    {
+      "episode": 5,
+      "category": "age",
+      "target": null,
+      "value": "is 30 years old",
+      "quote": "SIENNA VALE (30, white coat, ice-calm) steps out of the shadows, holding a manila folder.",
+      "id": "E05-F17"
+    },
+    {
+      "episode": 5,
+      "category": "knowledge",
+      "target": "Julian Ashford",
+      "value": "holds adoption papers bearing Julian's signature",
+      "quote": "It's your signature on the adoption papers.",
+      "id": "E05-F18"
+    },
+    {
+      "episode": 6,
+      "category": "age",
+      "target": null,
+      "value": "is 31 years old",
+      "quote": "SIENNA VALE (31, silk coat, icy calm) holds the folder out like a weapon.",
+      "id": "E06-F01"
+    },
+    {
+      "episode": 6,
+      "category": "knowledge",
+      "target": "Julian Ashford",
+      "value": "claims Julian signed Leo over on March 3rd, 2019 (claimed by Sienna)",
+      "quote": "SIENNA\nThat's your handwriting, Julian. Dated March 3rd, 2019. You signed Leo over before he could even walk.",
+      "id": "E06-F09"
+    },
+    {
+      "episode": 6,
+      "category": "other",
+      "target": "Nora Bell",
+      "value": "demands two million dollars within forty-six minutes or Celeste reports Nora to Child Services",
+      "quote": "You have forty-six minutes, Nora. Two million dollars or Celeste calls Child Services and reports you for neglect.",
+      "id": "E06-F16"
+    },
+    {
+      "episode": 7,
+      "category": "age",
+      "target": null,
+      "value": "is 30 years old",
+      "quote": "SIENNA VALE (30, red dress, polished smile) blocks the stairs.",
+      "id": "E07-F11"
+    },
+    {
+      "episode": 7,
+      "category": "knowledge",
+      "target": "Leo",
+      "value": "threatens to call Child Services in 41 minutes so Leo goes to emergency foster care tonight",
+      "quote": "41 minutes, Nora. Then the Department of Children and Families gets my call. Leo goes to emergency foster care tonight.",
+      "id": "E07-F12"
+    },
+    {
+      "episode": 8,
+      "category": "age",
+      "target": null,
+      "value": "is 30 years old",
+      "quote": "Sienna (30, red dress, phone in hand) taps her screen.",
+      "id": "E08-F04"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": "Nora",
+      "value": "threatens to call Child Services on Nora within 31 minutes",
+      "quote": "Thirty-one minutes, Nora. Then Child Services knocks on your door.",
+      "id": "E08-F17"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": null,
+      "value": "learns the report was never filed and someone else called the police",
+      "quote": "the report was never filed. Someone already called the police. They're at the gate.",
+      "id": "E08-F20"
+    },
+    {
+      "episode": 9,
+      "category": "age",
+      "target": null,
+      "value": "is 29 years old",
+      "quote": "SIENNA VALE (29, silk gown, pale) lowers her phone.",
+      "id": "E09-F01"
+    },
+    {
+      "episode": 9,
+      "category": "knowledge",
+      "target": "police",
+      "value": "did not call the police",
+      "quote": "Who called them? I didn't call them.",
+      "id": "E09-F02"
+    },
+    {
+      "episode": 10,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's fiancee",
+      "quote": "SIENNA VALE (30, fiancee, red dress)",
+      "id": "E10-F12"
+    },
+    {
+      "episode": 10,
+      "category": "possession",
+      "target": null,
+      "value": "wears an $80,000 engagement ring",
+      "quote": "twisting her $80,000 ring.",
+      "id": "E10-F13"
+    },
+    {
+      "episode": 10,
+      "category": "knowledge",
+      "target": "Nora Bell",
+      "value": "was told by Celeste that Nora was a gold digger",
+      "quote": "Celeste... you told me she was a gold digger.",
+      "id": "E10-F14"
+    },
+    {
+      "episode": 11,
+      "category": "age",
+      "target": null,
+      "value": "is 29 years old",
+      "quote": "Sienna Vale (29) watches him from the doorway, pale.",
+      "id": "E11-F06"
+    },
+    {
+      "episode": 12,
+      "category": "relationship",
+      "target": "Julian Ashford",
+      "value": "is Julian's fiancee, age 30",
+      "quote": "SIENNA VALE (30, fiancee) steps from the shadows, a recorder in her hand.",
+      "id": "E12-F10"
+    },
+    {
+      "episode": 12,
+      "category": "relationship",
+      "target": "Celeste",
+      "value": "was never truly daughter-in-law; was Celeste's insurance policy",
+      "quote": "Because I was never her daughter-in-law. I was her insurance policy.",
+      "id": "E12-F12"
+    },
+    {
+      "episode": 12,
+      "category": "knowledge",
+      "target": "Dutch",
+      "value": "called the police, sirens are her doing",
+      "quote": "Sirens wail outside, Sienna's doing.",
+      "id": "E12-F17"
+    }
+  ],
+  "Marcus Doyle": [
+    {
+      "episode": 1,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "is the hotel manager",
+      "quote": "MARCUS (45, hotel manager, sweating through his collar) rushes up, clutching a tablet.",
+      "id": "E01-F03"
+    },
+    {
+      "episode": 1,
+      "category": "age",
+      "target": null,
+      "value": "is 45 years old",
+      "quote": "MARCUS (45, hotel manager, sweating through his collar) rushes up, clutching a tablet.",
+      "id": "E01-F04"
+    },
+    {
+      "episode": 2,
+      "category": "age",
+      "target": null,
+      "value": "is 45 years old",
+      "quote": "Marcus Doyle (45, hotel manager, nervous sweat) bursts in, tablet in hand.",
+      "id": "E02-F05"
+    },
+    {
+      "episode": 2,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "hotel manager",
+      "quote": "Marcus Doyle (45, hotel manager, nervous sweat) bursts in, tablet in hand.",
+      "id": "E02-F06"
+    },
+    {
+      "episode": 2,
+      "category": "possession",
+      "target": "Nora Bell",
+      "value": "envelope with $40,000 and a note in Nora's handwriting found in locker 114",
+      "quote": "There's forty thousand dollars in here. And a note in your handwriting, Nora.",
+      "id": "E02-F16"
+    },
+    {
+      "episode": 3,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "hotel manager in his 50s",
+      "quote": "NIGHT\nMarcus (50s, hotel manager) holds up an Ashford-crested envelope. Inside",
+      "id": "E03-F01"
+    },
+    {
+      "episode": 3,
+      "category": "knowledge",
+      "target": "Celeste Ashford",
+      "value": "opened the locker after Celeste called about a theft at 9:15",
+      "quote": "Ms. Ashford said there was a theft. Celeste. At 9:15.",
+      "id": "E03-F08"
+    },
+    {
+      "episode": 3,
+      "category": "relationship",
+      "target": "Sienna Vale",
+      "value": "glanced at Sienna when asked who asked him to open the locker",
+      "quote": "Marcus glances at Sienna. Just for a second. Nora sees it.",
+      "id": "E03-F09"
+    },
+    {
+      "episode": 4,
+      "category": "age",
+      "target": null,
+      "value": "is 45 years old",
+      "quote": "MARCUS, 45, hotel manager, sweating, waits beside a black Mercedes",
+      "id": "E04-F05"
+    },
+    {
+      "episode": 4,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "is the hotel manager",
+      "quote": "MARCUS, 45, hotel manager, sweating, waits beside a black Mercedes",
+      "id": "E04-F07"
+    },
+    {
+      "episode": 4,
+      "category": "possession",
+      "target": "Nora Bell",
+      "value": "stole forty thousand dollars from Nora (claimed by Nora)",
+      "quote": "You stole forty thousand dollars from me. You get nothing.",
+      "id": "E04-F18"
+    },
+    {
+      "episode": 4,
+      "category": "knowledge",
+      "target": "Ashford estate",
+      "value": "knows the gate code changes at midnight and can get Julian in, wants immunity",
+      "quote": "Gate code changes at midnight. I can get you in, but I want immunity.",
+      "id": "E04-F19"
+    },
+    {
+      "episode": 5,
+      "category": "occupation",
+      "target": "Grandview Hotel",
+      "value": "is hotel manager",
+      "quote": "MARCUS (50s, hotel manager, rumpled suit) rushes in, out of breath, keys jangling.",
+      "id": "E05-F09"
+    },
+    {
+      "episode": 6,
+      "category": "age",
+      "target": null,
+      "value": "is 48 years old",
+      "quote": "MARCUS (48, hotel manager, rumpled blazer) steps out of the car, phone raised.",
+      "id": "E06-F04"
+    },
+    {
+      "episode": 6,
+      "category": "occupation",
+      "target": null,
+      "value": "is a hotel manager",
+      "quote": "MARCUS (48, hotel manager, rumpled blazer) steps out of the car, phone raised.",
+      "id": "E06-F08"
+    },
+    {
+      "episode": 6,
+      "category": "knowledge",
+      "target": "Harold Pruitt",
+      "value": "notary on the document is Harold Pruitt of Suffolk County; Marcus can reach him in two minutes",
+      "quote": "Stamp says Harold Pruitt, Suffolk County. I can have him on the line in two minutes.",
+      "id": "E06-F15"
+    },
+    {
+      "episode": 7,
+      "category": "occupation",
+      "target": null,
+      "value": "is a hotel manager, age 45",
+      "quote": "MARCUS (45, hotel manager) hovers behind him, phone in hand.",
+      "id": "E07-F09"
+    },
+    {
+      "episode": 9,
+      "category": "occupation",
+      "target": "hotel",
+      "value": "hotel manager, age 45",
+      "quote": "MARCUS (45, hotel manager, rumpled tie)",
+      "id": "E09-F18"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "silently signals Nora, apparently allied; possibly made the tip",
+      "quote": "He meets Nora's eyes and gives the smallest nod.",
+      "id": "E09-F19"
+    },
+    {
+      "episode": 10,
+      "category": "occupation",
+      "target": null,
+      "value": "hotel manager, age 45",
+      "quote": "MARCUS (45, hotel manager) slips toward the door.",
+      "id": "E10-F15"
+    },
+    {
+      "episode": 10,
+      "category": "knowledge",
+      "target": "Nora Bell",
+      "value": "admits he was paid to keep Nora quiet",
+      "quote": "Because I was paid to keep her quiet. Not to ruin you.",
+      "id": "E10-F16"
+    },
+    {
+      "episode": 11,
+      "category": "occupation",
+      "target": null,
+      "value": "is 48 and the hotel manager",
+      "quote": "Marcus (48, hotel manager) blocks her, sweating.",
+      "id": "E11-F11"
+    },
+    {
+      "episode": 11,
+      "category": "knowledge",
+      "target": "Celeste",
+      "value": "unlocked the loading dock gate on Celeste's orders, claims he didn't know why",
+      "quote": "Celeste told me to unlock the gate. I swear I didn't know why.",
+      "id": "E11-F12"
+    }
+  ],
+  "Nora's father": [
+    {
+      "episode": 7,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "is Nora's father",
+      "quote": "That's my dad. St. Luke's, 2018. He died that November.",
+      "id": "E07-F03"
+    },
+    {
+      "episode": 7,
+      "category": "status",
+      "target": null,
+      "value": "died in November 2018",
+      "quote": "That's my dad. St. Luke's, 2018. He died that November.",
+      "id": "E07-F04"
+    },
+    {
+      "episode": 8,
+      "category": "relationship",
+      "target": "Nora",
+      "value": "is Nora's father",
+      "quote": "My father never touched money in his life.",
+      "id": "E08-F10"
+    },
+    {
+      "episode": 8,
+      "category": "knowledge",
+      "target": "Julian",
+      "value": "sat by Julian's hospital bed then disappeared",
+      "quote": "Frank Bell sat by my bed. Then he was gone.",
+      "id": "E08-F11"
+    },
+    {
+      "episode": 9,
+      "category": "relationship",
+      "target": "Nora Bell",
+      "value": "is Nora's father",
+      "quote": "Two hundred thousand dollars, paid to her father.",
+      "id": "E09-F14"
+    }
+  ],
+  "Dana Reyes": [
+    {
+      "episode": 9,
+      "category": "occupation",
+      "target": "Boston PD",
+      "value": "police officer with Boston PD, age 40",
+      "quote": "OFFICER DANA REYES (40, Boston PD) walks in",
+      "id": "E09-F16"
+    },
+    {
+      "episode": 9,
+      "category": "knowledge",
+      "target": "forger",
+      "value": "police received an anonymous tip about a document forger at the address",
+      "quote": "We received an anonymous tip about a document forger at this address.",
+      "id": "E09-F17"
+    }
+  ],
+  "Mrs. Alvarez": [
+    {
+      "episode": 1,
+      "category": "occupation",
+      "target": "Leo Bell",
+      "value": "is Leo's babysitter",
+      "quote": "Screen: \"Mrs. Alvarez, Babysitter.",
+      "id": "E01-F11"
+    }
+  ],
+  "Dr. Hale": [
+    {
+      "episode": 10,
+      "category": "occupation",
+      "target": "Julian Ashford",
+      "value": "Julian's private physician",
+      "quote": "Dr. Hale, Julian's private physician, enters with a swab kit.",
+      "id": "E10-F17"
+    }
+  ],
+  "Officer Dana Reyes": [
+    {
+      "episode": 10,
+      "category": "location",
+      "target": "Leo Bell",
+      "value": "is at the Ashford mansion foyer and takes Leo to the sofa",
+      "quote": "Reyes nods gently and leads Leo to the sofa.",
+      "id": "E10-F20"
+    }
+  ],
+  "Dutch": [
+    {
+      "episode": 12,
+      "category": "occupation",
+      "target": "Celeste",
+      "value": "Celeste's fixer, in his 50s, scarred",
+      "quote": "DUTCH (50s, scarred, Celeste's fixer) paces, phone in hand.",
+      "id": "E12-F08"
+    }
+  ]
+}

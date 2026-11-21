@@ -1,0 +1,79 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F13",
+    "new_fact_id": "E03-F11",
+    "explanation": "Ep2 says the board wants Adrian to marry into Vanessa's family money, implying no prior engagement, while Ep3 has Vanessa claiming a two-year engagement that ended last spring. These could both be true if the engagement ended and the board still pushes the match, so this is weak.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "No change needed; optionally add a line in Ep2 or Ep3 acknowledging the past engagement."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F15",
+    "new_fact_id": "E03-F12",
+    "explanation": "Ep1 shows Adrian sitting with Vanessa as a companion, which is compatible with an ended engagement, so the two facts can both be true.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F06",
+    "new_fact_id": "E04-F05",
+    "explanation": "Ep1 has Maya refer to her mother dying eight years ago as if it were her birth mother. Ep4 reveals Grace found her alone at age four and raised her, so Maya's origin is changed. Both can be true if Grace is an adoptive mother who died eight years ago, so this is not clearly a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "Optionally add a line clarifying that Grace adopted Maya and has since died."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E03-F12",
+    "new_fact_id": "E05-F05",
+    "explanation": "Vanessa earlier said she was engaged to Adrian for two years; now says she gave him two years, which is consistent, so these can both be true.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F07",
+    "new_fact_id": "E05-F06",
+    "explanation": "Maya was fired from the diner in Ep2, yet Vanessa calls her a waitress in Ep5; this is a derogatory label and can still be used loosely about her background, so both can be true.",
+    "is_real_contradiction": false,
+    "issue_type": "occupation",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed, or change to 'a diner girl'."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E08-F05",
+    "new_fact_id": "E10-F07",
+    "explanation": "Maya was lost at age four and is now 24, so she was separated from her father twenty years ago. She received the locket with her father's photo at that time, so carrying it for twenty years fits, which means this is not a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F06",
+    "new_fact_id": "E10-F09",
+    "explanation": "Grace, Maya's adoptive mother, was established as having died eight years ago, with no mention of her being killed. Derek's claim that she was killed does not contradict this, since it is new information rather than a conflict.",
+    "is_real_contradiction": false,
+    "issue_type": "status",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  }
+]

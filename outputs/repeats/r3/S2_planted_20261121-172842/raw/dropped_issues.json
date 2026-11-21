@@ -1,0 +1,101 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E03-F11",
+    "new_fact_id": "E05-F06",
+    "explanation": "Vanessa said in Ep3 she was engaged to Adrian for two years, but in Ep5 she says she gave him four years of her life. Four years could include dating before the engagement, but it is not clearly reconciled.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "Change Ep5 line to 'I gave that man two years of my life' or clarify 'two years dating, two engaged'."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E03-F13",
+    "new_fact_id": "E05-F01",
+    "explanation": "Ep3 shows Vanessa only appearing to suspect the contract, while Ep5 shows her photographing it. Suspicion can lead to this action, so both can be true.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F05",
+    "new_fact_id": "E06-F02",
+    "explanation": "Maya was found alone at age four, and she is 24 now, so she was found 20 years ago. Mia vanishing 20 years ago is consistent with this, so there is no conflict.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E06-F10",
+    "new_fact_id": "E07-F01",
+    "explanation": "Ep6 has Martin call Chloe Adrian's cousin while Ep3 and Ep6 have Chloe as his little sister; this is not a conflict from Ep7 itself, so it should not be treated as an Ep7 issue.",
+    "is_real_contradiction": false,
+    "issue_type": "relationship",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed for Ep7."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F04",
+    "new_fact_id": "E08-F08",
+    "explanation": "Ep4 has Maya say Grace found her wearing the locket; Ep8 has Richard saying he put it on her. These are compatible, so not a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "other",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F12",
+    "new_fact_id": "E08-F09",
+    "explanation": "Maya opens the locket 'for the first time in years' and discovers a photo inside, which is not contradicted by earlier facts; the locket's inscription 'M.H.' matches Mia Hale.",
+    "is_real_contradiction": false,
+    "issue_type": "possession",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "unknown fact id",
+    "prior_fact_id": "E09-F09",
+    "new_fact_id": "E07-F12",
+    "explanation": "Ep7 said Sam's surgery was a complete success, but Ep9 says he is still waiting for surgery with the date being postponed.",
+    "is_real_contradiction": true,
+    "issue_type": "status",
+    "severity": "high",
+    "could_be_intentional": false,
+    "suggested_fix": "Change Maya's line to Sam recovering from surgery or needing follow-up care, not waiting for surgery."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E08-F06",
+    "new_fact_id": "E09-F11",
+    "explanation": "The apartment in Ep9 is shown as Maya's, which is consistent with the Ep8 Oak Avenue building, but Ep2 established a one-room apartment on Maple Street. This is a street conflict, though it is not new in Ep9.",
+    "is_real_contradiction": false,
+    "issue_type": "location",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed for Ep9; reconcile Maple Street and Oak Avenue in earlier episodes."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F04",
+    "new_fact_id": "E10-F11",
+    "explanation": "Grace is established as the mother who raised Maya, and Maya's mother died eight years ago. Her death being a killing is new information, which is not a contradiction, though earlier episodes never suggested murder. Both can be true.",
+    "is_real_contradiction": false,
+    "issue_type": "status",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "No fix needed. Optionally seed earlier that Grace's death was suspicious."
+  }
+]

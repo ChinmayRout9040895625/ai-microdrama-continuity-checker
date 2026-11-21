@@ -1,0 +1,191 @@
+[
+ {
+  "id": "P01",
+  "type": "age",
+  "episode": 7,
+  "source_episodes": [
+   1
+  ],
+  "description": "Maya's age: 24 in ep1, says 22 in ep7",
+  "edits": [
+   {
+    "find": "I'm twenty-four, Adrian.",
+    "replace": "I'm only twenty-two, Adrian."
+   }
+  ]
+ },
+ {
+  "id": "P02",
+  "type": "status",
+  "episode": 9,
+  "source_episodes": [
+   2
+  ],
+  "description": "Adrian's father died in a crash (ep2) but Adrian plans to ask him tonight (ep9)",
+  "edits": [
+   {
+    "find": "I'll handle Derek myself. My father taught me never to wait for an enemy to move first.",
+    "replace": "I'll ask my father tonight. He'll know exactly how to handle Derek."
+   }
+  ]
+ },
+ {
+  "id": "P03",
+  "type": "timeline",
+  "episode": 5,
+  "source_episodes": [
+   3
+  ],
+  "description": "Vanessa's engagement: two years (ep3) vs four years (ep5)",
+  "edits": [
+   {
+    "find": "I gave that man two years of my life.",
+    "replace": "I gave that man four years of my life."
+   }
+  ]
+ },
+ {
+  "id": "P04",
+  "type": "knowledge",
+  "episode": 10,
+  "source_episodes": [
+   7
+  ],
+  "description": "Adrian learned about the blackmail and fired Vanessa (ep7) but is surprised by it in ep10",
+  "edits": [
+   {
+    "find": "ADRIAN: (to Richard) After what Vanessa pulled with that blackmail, nothing she says matters, and Derek's working with her.",
+    "replace": "ADRIAN: (to Maya) Vanessa blackmailed you? Why didn't you ever tell me?"
+   }
+  ]
+ },
+ {
+  "id": "P05",
+  "type": "occupation",
+  "episode": 9,
+  "source_episodes": [
+   3
+  ],
+  "description": "Vanessa was marketing director (ep3) but says she was head of legal (ep9)",
+  "edits": [
+   {
+    "find": "When I ran marketing at Cross Capital, I learned how to sell a story.",
+    "replace": "When I was head of legal at Cross Capital, I read every contract he signed."
+   }
+  ]
+ },
+ {
+  "id": "P06",
+  "type": "possession",
+  "episode": 6,
+  "source_episodes": [
+   1,
+   2,
+   5
+  ],
+  "description": "Surgery cost: $80,000 (ep1/2/5) vs $120,000 (ep6)",
+  "edits": [
+   {
+    "find": "Eighty thousand dollars, Sam. It's covered.",
+    "replace": "A hundred and twenty thousand dollars, Sam. It's covered."
+   }
+  ]
+ },
+ {
+  "id": "P07",
+  "type": "location",
+  "episode": 8,
+  "source_episodes": [
+   2
+  ],
+  "description": "Maya's apartment: Maple Street (ep2) vs Oak Avenue (ep8)",
+  "edits": [
+   {
+    "find": "EXT. MAYA'S APARTMENT BUILDING, MAPLE STREET - NIGHT",
+    "replace": "EXT. MAYA'S APARTMENT BUILDING, OAK AVENUE - NIGHT"
+   },
+   {
+    "find": "I drove past this building on Maple Street three times",
+    "replace": "I drove past this building on Oak Avenue three times"
+   }
+  ]
+ },
+ {
+  "id": "P08",
+  "type": "identity",
+  "episode": 10,
+  "source_episodes": [
+   6,
+   8
+  ],
+  "description": "Richard's lost daughter: Mia (ep6/8) vs Emma (ep10)",
+  "edits": [
+   {
+    "find": "This is my daughter, Mia Hale.",
+    "replace": "This is my daughter, Emma Hale."
+   }
+  ]
+ },
+ {
+  "id": "P09",
+  "type": "relationship",
+  "episode": 6,
+  "source_episodes": [
+   3
+  ],
+  "description": "Chloe is Adrian's sister (ep3) but called his cousin (ep6)",
+  "edits": [
+   {
+    "find": "Adrian Cross's sister Chloe",
+    "replace": "Adrian Cross's cousin Chloe"
+   }
+  ]
+ },
+ {
+  "id": "P10",
+  "type": "timeline",
+  "episode": 8,
+  "source_episodes": [
+   4
+  ],
+  "description": "Age when lost at the carnival: four (ep4) vs two (ep8)",
+  "edits": [
+   {
+    "find": "You were four years old when I lost you",
+    "replace": "You were only two years old when I lost you"
+   }
+  ]
+ },
+ {
+  "id": "P11",
+  "type": "relationship",
+  "episode": 5,
+  "source_episodes": [
+   1,
+   3
+  ],
+  "description": "Vanessa met Maya in the diner (ep1) and confronted her at the office (ep3), but Adrian says she has never met Maya (ep5)",
+  "edits": [
+   {
+    "find": "Vanessa, you humiliated her in that diner. Stay away from her.",
+    "replace": "Vanessa, you've never even met Maya. Stay away from her."
+   }
+  ],
+  "note": "source_episodes corrected from [1] to [1,3] after v1 run: ep3 is also a valid source (gold-label error, not a tool error)"
+ },
+ {
+  "id": "P12",
+  "type": "status",
+  "episode": 9,
+  "source_episodes": [
+   7
+  ],
+  "description": "Sam's surgery succeeded (ep7) but he is still waiting for it (ep9)",
+  "edits": [
+   {
+    "find": "Sam's recovering. The doctors say he can come home Friday.",
+    "replace": "Sam is still waiting for his surgery. The doctors keep pushing the date."
+   }
+  ]
+ }
+]

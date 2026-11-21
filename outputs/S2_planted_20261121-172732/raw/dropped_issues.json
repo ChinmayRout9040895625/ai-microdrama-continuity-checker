@@ -1,0 +1,112 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F06",
+    "new_fact_id": "E05-F06",
+    "explanation": "Maya was fired from the diner in Ep2, so Vanessa calling her a waitress could be an insult or outdated, and it does not conflict with the earlier fact.",
+    "is_real_contradiction": false,
+    "issue_type": "occupation",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F07",
+    "new_fact_id": "E06-F02",
+    "explanation": "Maya was four when Grace found her, and Maya is 24 now. That puts her disappearance about 20 years ago, which matches Mia vanishing 20 years ago. This is consistent, so it is not a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "No change needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E05-F08",
+    "new_fact_id": "E07-F09",
+    "explanation": "Ep7 claims Maya threw coffee on Adrian the night they met, but Ep1 showed no coffee-throwing; Adrian tipped her and left. This is possibly an off-screen event, so the two may not conflict.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "Add a coffee-spill moment to Ep1 or change the line to reference the diner night/tip."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E03-F09",
+    "new_fact_id": "E07-F04",
+    "explanation": "Vanessa is consistent as marketing director/employee at Cross Tower; no conflict.",
+    "is_real_contradiction": false,
+    "issue_type": "occupation",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F02",
+    "new_fact_id": "E07-F11",
+    "explanation": "Sam's surgery was said to need to happen within thirty days and is now complete; this is a plausible development, not a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "status",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E06-F12",
+    "new_fact_id": "E07-F11",
+    "explanation": "Cost was $80,000 earlier and $120,000 in Ep6; this is an Ep6 inconsistency, not one introduced by Ep7.",
+    "is_real_contradiction": false,
+    "issue_type": "possession",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed for Ep7."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F13",
+    "new_fact_id": "E08-F11",
+    "explanation": "Ep1 and Ep4 show Maya wearing the locket, including at the gala, so it is not something she has left unopened for years. The line implies she has not worn or opened it for years.",
+    "is_real_contradiction": false,
+    "issue_type": "other",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "Change to 'She opens the locket for the first time in years' only if clarified as not having opened it, or say 'for the first time since she was a child'."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E08-F05",
+    "new_fact_id": "E09-F12",
+    "explanation": "Ep2 says Maya lives on Maple Street, Ep8 says Oak Avenue, and Ep9 puts her in her apartment. The Ep9 scene itself does not name a street, so this is mostly an Ep8 inconsistency carried forward.",
+    "is_real_contradiction": false,
+    "issue_type": "location",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "Confirm she moved from Maple Street to Oak Avenue, or unify the street name."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E08-F03",
+    "new_fact_id": "E10-F09",
+    "explanation": "Maya was lost at age two and found at age four, and had the locket when found. Twenty years of carrying the photo conflicts with the stated ages given she is 22 or 24 and was lost 20 years ago.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "Not needed if 'twenty years' is approximate."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F05",
+    "new_fact_id": "E10-F10",
+    "explanation": "Grace was established as Maya's adoptive mother, and Maya's mother died eight years ago; Derek now asserts Grace was killed, which is not a contradiction with death but is new information.",
+    "is_real_contradiction": false,
+    "issue_type": "status",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed."
+  }
+]

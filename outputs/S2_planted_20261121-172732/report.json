@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "run_id": "S2_planted_20261121-172732",
+    "input": "data\\S2_planted",
+    "episodes": 10,
+    "facts_kept": 132,
+    "facts_rejected": 0,
+    "issues_dropped_invalid_ids": 10,
+    "provider": "anthropic",
+    "models": "extract=claude-sonnet-5-5@medium, check=claude-sonnet-5-5@medium",
+    "prompt_version": "v2",
+    "usage": {
+      "calls": 19,
+      "cached_calls": 0,
+      "input_tokens": 86443,
+      "output_tokens": 15952,
+      "seconds": 113.00121021270752
+    },
+    "wall_seconds": 49.1
+  },
+  "issues": [
+    {
+      "id": "E03-F13~E05-F08",
+      "prior": {
+        "id": "E03-F13",
+        "episode": 3,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "relationship",
+        "target": "Maya",
+        "value": "hostile to Maya, believes Adrian is paying her",
+        "quote": "Whatever he's paying you, it won't be enough.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E05-F08",
+        "episode": 5,
+        "entity": "Adrian",
+        "entity_key": "adrian cross",
+        "category": "knowledge",
+        "target": "Vanessa",
+        "value": "believes Vanessa has never met Maya (claimed by Adrian); Vanessa's plot is unknown to him",
+        "quote": "Vanessa, you've never even met Maya. Stay away from her.",
+        "quote_score": 100.0
+      },
+      "issue_type": "knowledge",
+      "severity": "high",
+      "explanation": "Adrian says Vanessa has never met Maya, but in Ep3 Vanessa confronted Maya in his office, and in Ep1 both were in the diner while Adrian was present.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Adrian's line to 'Vanessa, stay away from Maya.'"
+    },
+    {
+      "id": "E01-F12~E06-F12",
+      "prior": {
+        "id": "E01-F12",
+        "episode": 1,
+        "entity": "Sam",
+        "entity_key": "sam collins",
+        "category": "possession",
+        "target": "Maya Collins",
+        "value": "needs eighty thousand dollars (for his care)",
+        "quote": "I know. Eighty thousand dollars. I'll find it. I promise.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E06-F12",
+        "episode": 6,
+        "entity": "Maya Collins",
+        "entity_key": "maya collins",
+        "category": "possession",
+        "target": "Sam",
+        "value": "is covering a $120,000 cost for Sam",
+        "quote": "A hundred and twenty thousand dollars, Sam. It's covered. You just focus on getting stronger.",
+        "quote_score": 100.0
+      },
+      "issue_type": "possession",
+      "severity": "high",
+      "explanation": "The cost of Sam's care was established as eighty thousand dollars in Ep1, Ep2 and Ep5. Ep6 says $120,000 with no explanation of the increase.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Maya's line to 'Eighty thousand dollars, Sam.' or add a line explaining that the cost rose."
+    },
+    {
+      "id": "E01-F01~E07-F10",
+      "prior": {
+        "id": "E01-F01",
+        "episode": 1,
+        "entity": "Maya Collins",
+        "entity_key": "maya collins",
+        "category": "age",
+        "target": null,
+        "value": "is 24 years old",
+        "quote": "MAYA COLLINS (24), apron stained, balances four plates.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F10",
+        "episode": 7,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "age",
+        "target": null,
+        "value": "is 22 years old",
+        "quote": "I'm only twenty-two, Adrian. I stopped believing in fairy tales a long time ago.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Maya was established as 24 years old in Episode 1 but now says she is only twenty-two, with no time-jump or explanation.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Maya's line in Ep7 to 'I'm only twenty-four, Adrian.'"
+    },
+    {
+      "id": "E02-F10~E09-F11",
+      "prior": {
+        "id": "E02-F10",
+        "episode": 2,
+        "entity": "Adrian Cross",
+        "entity_key": "adrian cross",
+        "category": "relationship",
+        "target": null,
+        "value": "his father built Cross Capital and died in a crash five years ago",
+        "quote": "My father built Cross Capital from nothing before the crash took him five years ago.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F11",
+        "episode": 9,
+        "entity": "Adrian Cross",
+        "entity_key": "adrian cross",
+        "category": "relationship",
+        "target": "Adrian Cross's father",
+        "value": "will ask his father for help with Derek tonight",
+        "quote": "I'll ask my father tonight. He'll know exactly how to handle Derek.",
+        "quote_score": 100.0
+      },
+      "issue_type": "status",
+      "severity": "high",
+      "explanation": "Ep2 established Adrian's father died in a crash five years ago, yet Adrian says he will ask his father for help tonight.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change the line to another living person, e.g. 'I'll ask my lawyer tonight' or 'my father's old partner'."
+    },
+    {
+      "id": "E07-F11~E09-F09",
+      "prior": {
+        "id": "E07-F11",
+        "episode": 7,
+        "entity": "Sam",
+        "entity_key": "sam collins",
+        "category": "status",
+        "target": "Maya",
+        "value": "had surgery that was a complete success",
+        "quote": "Maya, Sam's surgery was a complete success.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F09",
+        "episode": 9,
+        "entity": "Sam",
+        "entity_key": "sam collins",
+        "category": "status",
+        "target": null,
+        "value": "is awaiting surgery, date keeps being pushed",
+        "quote": "Sam is still waiting for his surgery. The doctors keep pushing the date.",
+        "quote_score": 100.0
+      },
+      "issue_type": "status",
+      "severity": "high",
+      "explanation": "Ep7 states Sam's surgery was a complete success, but Ep9 says Sam is still waiting for surgery and the date keeps being pushed.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Maya's line to Sam recovering after his successful surgery, e.g. 'Sam is still recovering from his surgery. The doctors keep pushing his discharge date.'"
+    },
+    {
+      "id": "E06-F01~E10-F02",
+      "prior": {
+        "id": "E06-F01",
+        "episode": 6,
+        "entity": "Richard Hale",
+        "entity_key": "uncle richard",
+        "category": "relationship",
+        "target": "Mia",
+        "value": "Mia is his daughter",
+        "quote": "My daughter Mia vanished twenty years ago, Martin.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F02",
+        "episode": 10,
+        "entity": "Richard Hale",
+        "entity_key": "uncle richard",
+        "category": "relationship",
+        "target": "Maya",
+        "value": "claims Maya is his daughter, Emma Hale",
+        "quote": "This is my daughter, Emma Hale. And today she comes home.",
+        "quote_score": 100.0
+      },
+      "issue_type": "identity",
+      "severity": "high",
+      "explanation": "Richard's lost daughter was named Mia; he now claims his daughter is Emma Hale, a different name.",
+      "could_be_intentional": false,
+      "suggested_fix": "Use 'Mia Hale' in the announcement dialogue."
+    },
+    {
+      "id": "E07-F01~E10-F06",
+      "prior": {
+        "id": "E07-F01",
+        "episode": 7,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "other",
+        "target": "Maya",
+        "value": "has been blackmailing Maya for a week via threatening texts",
+        "quote": "She's been blackmailing Maya for a week. Maya made me promise not to tell you. I'm breaking that promise.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F06",
+        "episode": 10,
+        "entity": "Adrian",
+        "entity_key": "adrian cross",
+        "category": "knowledge",
+        "target": "Vanessa",
+        "value": "learns Vanessa blackmailed Maya; Maya never told him",
+        "quote": "Vanessa blackmailed you? Why didn't you ever tell me?",
+        "quote_score": 100.0
+      },
+      "issue_type": "knowledge",
+      "severity": "high",
+      "explanation": "Adrian was already told about the blackmail and read every message in Ep7, so he cannot now learn of it and ask why Maya never told him.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Adrian's line to something like 'You carried that alone even after I knew?' or remove the surprise."
+    },
+    {
+      "id": "E08-F02~E10-F01",
+      "prior": {
+        "id": "E08-F02",
+        "episode": 8,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "identity",
+        "target": null,
+        "value": "birth name is Mia Hale (claimed by Richard)",
+        "quote": "Your name is Mia Hale. I put that locket on you myself.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F01",
+        "episode": 10,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "identity",
+        "target": "Richard Hale",
+        "value": "publicly introduced as Richard's daughter Emma Hale",
+        "quote": "This is my daughter, Emma Hale. And today she comes home.",
+        "quote_score": 100.0
+      },
+      "issue_type": "identity",
+      "severity": "high",
+      "explanation": "Richard established that Maya's birth name is Mia Hale (his daughter Mia vanished), but he now introduces her publicly as 'Emma Hale' with no explanation.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change 'Emma Hale' to 'Mia Hale' in Richard's announcement line."
+    },
+    {
+      "id": "E03-F04~E06-F10",
+      "prior": {
+        "id": "E03-F04",
+        "episode": 3,
+        "entity": "Chloe Cross",
+        "entity_key": "chloe cross",
+        "category": "relationship",
+        "target": "Adrian",
+        "value": "is Adrian's little sister",
+        "quote": "I'm Chloe, Adrian's little sister.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E06-F10",
+        "episode": 6,
+        "entity": "Chloe",
+        "entity_key": "chloe cross",
+        "category": "relationship",
+        "target": "Adrian Cross",
+        "value": "is Adrian's cousin (per Martin)",
+        "quote": "Miss Collins was seen with Adrian Cross's cousin Chloe at St. Luke's Hospital yesterday.",
+        "quote_score": 100.0
+      },
+      "issue_type": "relationship",
+      "severity": "medium",
+      "explanation": "Ep3 has Chloe introduce herself as Adrian's little sister, but Martin now calls her Adrian's cousin. Chloe herself calls Adrian 'my brother' in Ep6, so only Martin's line conflicts.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Martin's line to 'Adrian Cross's sister Chloe'."
+    },
+    {
+      "id": "E02-F12~E08-F05",
+      "prior": {
+        "id": "E02-F12",
+        "episode": 2,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "location",
+        "target": null,
+        "value": "lives in a one-room apartment on Maple Street",
+        "quote": "I go home every night to a one-room apartment on Maple Street.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F05",
+        "episode": 8,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "location",
+        "target": null,
+        "value": "lives in an apartment building on Oak Avenue",
+        "quote": "I drove past this building on Oak Avenue three times before I found the courage to knock.",
+        "quote_score": 100.0
+      },
+      "issue_type": "location",
+      "severity": "medium",
+      "explanation": "Maya's apartment is established on Maple Street, but Ep8 places her building on Oak Avenue.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change 'Oak Avenue' to 'Maple Street' in the Ep8 dialogue and slugline."
+    },
+    {
+      "id": "E06-F02~E08-F03",
+      "prior": {
+        "id": "E06-F02",
+        "episode": 6,
+        "entity": "Mia",
+        "entity_key": "maya collins",
+        "category": "timeline",
+        "target": "Richard Hale",
+        "value": "vanished twenty years ago",
+        "quote": "My daughter Mia vanished twenty years ago, Martin.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F03",
+        "episode": 8,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "timeline",
+        "target": "Richard Hale",
+        "value": "was lost at a carnival at age two",
+        "quote": "You were only two years old when I lost you at that carnival.",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "medium",
+      "explanation": "Mia vanished twenty years ago, and Maya was 24 in Ep1, so she would have been about four then. Richard now says she was two when lost, which conflicts with the 24 or 22 age and the twenty-year timeline.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change the age at loss to four, or change the vanishing to 'twenty-two years ago' in Ep6."
+    },
+    {
+      "id": "E03-F09~E09-F07",
+      "prior": {
+        "id": "E03-F09",
+        "episode": 3,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "occupation",
+        "target": null,
+        "value": "marketing director at Cross Tower",
+        "quote": "I'm the marketing director here, sweetheart",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F07",
+        "episode": 9,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "occupation",
+        "target": "Cross Capital",
+        "value": "was head of legal at Cross Capital",
+        "quote": "When I was head of legal at Cross Capital, I read every contract he signed.",
+        "quote_score": 100.0
+      },
+      "issue_type": "occupation",
+      "severity": "medium",
+      "explanation": "Ep3 and Ep7 established Vanessa as marketing director at Cross Tower, not head of legal at Cross Capital.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change the line to 'When I was marketing director at Cross Capital, I saw every contract he signed.'"
+    },
+    {
+      "id": "E08-F11~E10-F09",
+      "prior": {
+        "id": "E08-F11",
+        "episode": 8,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "timeline",
+        "target": null,
+        "value": "had not opened the locket in years",
+        "quote": "She opens the locket for the first time in years.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F09",
+        "episode": 10,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "timeline",
+        "target": "Richard Hale",
+        "value": "has carried her father's photograph for twenty years",
+        "quote": "A con artist doesn't carry her father's photograph for twenty years without knowing it.",
+        "quote_score": 100.0
+      },
+      "issue_type": "knowledge",
+      "severity": "medium",
+      "explanation": "Maya says she carried her father's photo for twenty years, but she had not opened the locket in years and learned only recently that Richard is her father and the locket's photo is of him. She also claims to have had it since age 4, which is 20 years at 24, yet she is stated as 22 in Ep7.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change to 'A con artist doesn't carry a locket with her father's photograph for twenty years without it meaning something.'"
+    },
+    {
+      "id": "E03-F10~E05-F05",
+      "prior": {
+        "id": "E03-F10",
+        "episode": 3,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "relationship",
+        "target": "Adrian",
+        "value": "was engaged to Adrian for two years",
+        "quote": "I was engaged to him for two years.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E05-F05",
+        "episode": 5,
+        "entity": "Vanessa",
+        "entity_key": "vanessa reed",
+        "category": "relationship",
+        "target": "Adrian",
+        "value": "claims she gave Adrian four years of her life (past relationship)",
+        "quote": "I gave that man four years of my life. I'm not losing him to a waitress.",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "medium",
+      "explanation": "Vanessa said in Ep3 she was engaged to Adrian for two years, but in Ep5 she says she gave him four years of her life, so the duration of their relationship differs.",
+      "could_be_intentional": true,
+      "suggested_fix": "Change Vanessa's Ep5 line to 'I gave that man two years of my life', or clarify that they dated two years before the engagement."
+    },
+    {
+      "id": "E04-F07~E08-F03",
+      "prior": {
+        "id": "E04-F07",
+        "episode": 4,
+        "entity": "Maya Collins",
+        "entity_key": "maya collins",
+        "category": "age",
+        "target": null,
+        "value": "was four years old when found by Grace",
+        "quote": "I was four. I don't remember anything before that.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F03",
+        "episode": 8,
+        "entity": "Maya",
+        "entity_key": "maya collins",
+        "category": "timeline",
+        "target": "Richard Hale",
+        "value": "was lost at a carnival at age two",
+        "quote": "You were only two years old when I lost you at that carnival.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Maya said she was four when Grace found her alone at the Navy Pier carnival, but Richard says she was two when he lost her at a carnival. The ages at loss and at being found differ.",
+      "could_be_intentional": true,
+      "suggested_fix": "Change Richard's line to 'You were only four years old when I lost you at that carnival.' Or have Maya note that she was missing for two years before Grace found her."
+    }
+  ]
+}

@@ -1,0 +1,1733 @@
+{
+  "meta": {
+    "run_id": "S1_generated_20261121-173053",
+    "input": "data\\S1_generated",
+    "episodes": 12,
+    "facts_kept": 225,
+    "facts_rejected": 1,
+    "issues_dropped_invalid_ids": 8,
+    "provider": "anthropic",
+    "models": "extract=claude-sonnet-5-5@medium, check=claude-sonnet-5-5@medium",
+    "prompt_version": "v2",
+    "usage": {
+      "calls": 23,
+      "cached_calls": 0,
+      "input_tokens": 154069,
+      "output_tokens": 35077,
+      "seconds": 228.4258577823639
+    },
+    "wall_seconds": 70.2
+  },
+  "issues": [
+    {
+      "id": "E01-F08~E02-F12",
+      "prior": {
+        "id": "E01-F08",
+        "episode": 1,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "relationship",
+        "target": "Julian Ashford",
+        "value": "past romantic history; wedding apparently ended with empty church on June 14, 2018",
+        "quote": "a white wedding dress, an empty church, rain on the steps. June 14, 2018.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E02-F12",
+        "episode": 2,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": "Nora Bell",
+        "value": "waited at the church three hours on June 9th, 2018",
+        "quote": "June 9th, 2018. I waited at that church for three hours. Where were you?",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "high",
+      "explanation": "Episode 1 gives the empty-church wedding date as June 14, 2018, but Episode 2 has Julian say it was June 9th, 2018.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Julian's line in Ep2 to 'June 14th, 2018' (or change the Ep1 date to June 9th)."
+    },
+    {
+      "id": "E01-F05~E03-F03",
+      "prior": {
+        "id": "E01-F05",
+        "episode": 1,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 33 years old",
+        "quote": "Julian Ashford. Thirty-three. Bought this place for $240 million last week.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E03-F03",
+        "episode": 3,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "occupation",
+        "target": "Grandview Hotel",
+        "value": "owner of the hotel, age 32",
+        "quote": "Julian Ashford (32, hotel owner) steps forward, jaw tight.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Julian is established as 33 in Ep1 and Ep2 but is 32 in Ep3.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Julian's age in Ep3 to 33."
+    },
+    {
+      "id": "E01-F09~E03-F10",
+      "prior": {
+        "id": "E01-F09",
+        "episode": 1,
+        "entity": "Leo Bell",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 5 years old",
+        "quote": "Photo of LEO BELL (5, gap-toothed grin, dark curls, Julian's exact green eyes).",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E03-F10",
+        "episode": 3,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is a boy of 6",
+        "quote": "a small boy, 6, holding the hand of Celeste Ashford",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Leo is 5 in Ep1 but 6 in Ep3, with no on-screen time passage explained.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Leo's age in Ep3 to 5."
+    },
+    {
+      "id": "E02-F04~E03-F04",
+      "prior": {
+        "id": "E02-F04",
+        "episode": 2,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 31 years old",
+        "quote": "Sienna Vale (31, designer white dress, diamond ring) steps between them.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E03-F04",
+        "episode": 3,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "relationship",
+        "target": "Julian Ashford",
+        "value": "is Julian's fiancee, age 28",
+        "quote": "Sienna Vale (28, Julian's fiancee) appears at the corner",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Sienna is 30 in Ep1 and 31 in Ep2 but 28 in Ep3.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Sienna's age in Ep3 to 31."
+    },
+    {
+      "id": "E02-F02~E04-F03",
+      "prior": {
+        "id": "E02-F02",
+        "episode": 2,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "Nora Bell (29, gray housekeeping uniform) grips her cart handle.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E04-F03",
+        "episode": 4,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 31 years old",
+        "quote": "NORA BELL, 31, in her gray housekeeper uniform, grips the desk.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Nora was established as 29 in Episodes 1-3 and is now 31, with no on-screen time passage to explain it.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Nora's age in Ep4 to 29, or add a time-jump title card."
+    },
+    {
+      "id": "E02-F13~E04-F12",
+      "prior": {
+        "id": "E02-F13",
+        "episode": 2,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "timeline",
+        "target": "Julian Ashford",
+        "value": "waited for Julian at Harbor Chapel; he never came",
+        "quote": "Waiting for YOU. At Harbor Chapel. You never came.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E04-F12",
+        "episode": 4,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "relationship",
+        "target": "Nora Bell",
+        "value": "left Nora at the altar at St. Anne's with 120 guests (claimed by Nora)",
+        "quote": "you left me at the altar of St. Anne's with a dress and a hundred and twenty guests.",
+        "quote_score": 100.0
+      },
+      "issue_type": "location",
+      "severity": "high",
+      "explanation": "Ep2 has Nora waiting at Harbor Chapel, while Ep4 says the wedding was at St. Anne's. The venue changed.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change 'St. Anne's' in Ep4 to 'Harbor Chapel'."
+    },
+    {
+      "id": "E06-F02~E07-F06",
+      "prior": {
+        "id": "E06-F02",
+        "episode": 6,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 36 years old",
+        "quote": "JULIAN ASHFORD (36, soaked tailored suit) stares at the signature page.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F06",
+        "episode": 7,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 34 years old",
+        "quote": "JULIAN ASHFORD (34, tailored suit, shaken)",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Julian is 36 in Ep6 but 34 in Ep7, with no time passing between the episodes (same night). Ep5 also gives 35.",
+      "could_be_intentional": false,
+      "suggested_fix": "Pick one age for Julian and use it in every episode; change Ep7 to match the Ep6 age or revise the earlier ones."
+    },
+    {
+      "id": "E06-F05~E07-F13",
+      "prior": {
+        "id": "E06-F05",
+        "episode": 6,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 6 years old",
+        "quote": "LEO (6) mouths one word: \"Mom.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F13",
+        "episode": 7,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 5 years old",
+        "quote": "At the second-floor window, LEO (5) presses his palm to the glass.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Leo is 6 in Ep6 (and in Ep3, Ep4 and Ep5) but 5 in Ep7, with no time passing.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Leo's age in Ep7 to 6."
+    },
+    {
+      "id": "E02-F01~E08-F18",
+      "prior": {
+        "id": "E02-F01",
+        "episode": 2,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 33 years old",
+        "quote": "Julian Ashford (33, tailored charcoal suit, tired green eyes) stares at his mother.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F18",
+        "episode": 8,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "relationship",
+        "target": "Julian",
+        "value": "has eyes the same gray as Julian's, implying he is Julian's son",
+        "quote": "Julian stares at the boy's eyes, the exact gray of his own.",
+        "quote_score": 100.0
+      },
+      "issue_type": "other",
+      "severity": "high",
+      "explanation": "Julian's eyes were established as green, and Leo has \"Julian's exact green eyes\". Episode 8 says both have gray eyes.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change \"exact gray of his own\" to \"exact green of his own\"."
+    },
+    {
+      "id": "E07-F13~E08-F05",
+      "prior": {
+        "id": "E07-F13",
+        "episode": 7,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 5 years old",
+        "quote": "At the second-floor window, LEO (5) presses his palm to the glass.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F05",
+        "episode": 8,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 7 years old",
+        "quote": "Leo (7, yellow raincoat) presses his hand to the glass.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Leo was 5 in Episode 7 and is 7 in Episode 8, with no time jump shown. He was 6 in Episodes 3 to 6.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Leo 5 or 6 in Episode 8 and change the Nora line to \"a six-year-old\"."
+    },
+    {
+      "id": "E08-F05~E09-F05",
+      "prior": {
+        "id": "E08-F05",
+        "episode": 8,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 7 years old",
+        "quote": "Leo (7, yellow raincoat) presses his hand to the glass.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F05",
+        "episode": 9,
+        "entity": "Leo Bell",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 6 years old, turned six in March",
+        "quote": "He turned six in March.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Leo is 7 in Episode 8 but 6 (turned six in March) in the very next episode. The story has not skipped any time.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Leo 6 in Episode 8, or change the Episode 8 and Episode 9 dialogue and slug lines to match."
+    },
+    {
+      "id": "E10-F04~E11-F01",
+      "prior": {
+        "id": "E10-F04",
+        "episode": 10,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "NORA BELL (29, hotel housekeeper, tired but proud)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E11-F01",
+        "episode": 11,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 32 years old",
+        "quote": "CLOSE ON Nora Bell (32) at the window.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Nora is 29 in Ep10 and 32 in Ep11, with no time jump shown. The Ep10 test is still pending, so the two episodes are the same night.",
+      "could_be_intentional": false,
+      "suggested_fix": "Pick one age for Nora and use it everywhere. Change Ep11 to 'Nora Bell (29)' to match Ep10."
+    },
+    {
+      "id": "E10-F01~E11-F02",
+      "prior": {
+        "id": "E10-F01",
+        "episode": 10,
+        "entity": "Leo Bell",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 6 years old",
+        "quote": "CLOSE ON Leo Bell, 6, gripping Nora's hand.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E11-F02",
+        "episode": 11,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 7 years old",
+        "quote": "Leo (7) is gone from the couch.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Leo is 6 in Ep10 and 7 in Ep11. Ep9 also says he turned six in March, and the story continues the same night.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Ep11 to 'Leo (6)'."
+    },
+    {
+      "id": "E10-F06~E11-F05",
+      "prior": {
+        "id": "E10-F06",
+        "episode": 10,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 32 years old",
+        "quote": "JULIAN ASHFORD (32, hotel owner, tailored suit, unraveling)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E11-F05",
+        "episode": 11,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 35 years old",
+        "quote": "Julian Ashford (35) stares at a clock: 11:14 PM.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "high",
+      "explanation": "Julian is 32 in Ep10 and 35 in Ep11, with no passage of time between them.",
+      "could_be_intentional": false,
+      "suggested_fix": "Fix Julian's age at a single value across the series, for example 'Julian Ashford (34)' in Ep11 and Ep10."
+    },
+    {
+      "id": "E10-F08~E12-F06",
+      "prior": {
+        "id": "E10-F08",
+        "episode": 10,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": "Nora Bell",
+        "value": "seven years ago he woke in a Zurich clinic with a fake chart and was told Nora left him",
+        "quote": "Seven years, Nora. I woke up in a Zurich clinic with a fake chart and a story that you'd left me.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E12-F06",
+        "episode": 12,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": "Nora Bell",
+        "value": "left Nora the night before their wedding because his mother threatened her",
+        "quote": "I left you the night before our wedding because my mother threatened you.",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "high",
+      "explanation": "Ep10 says Julian woke in a Zurich clinic with a fake chart and was told Nora had left him, and Ep8 says he had amnesia. Ep12 says he deliberately left Nora the night before the wedding because Celeste threatened her. He cannot both have been abducted or lost his memory and have chosen to leave.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Julian's line to say he was taken from her the night before the wedding because Celeste threatened Nora, rather than that he left her."
+    },
+    {
+      "id": "E01-F13~E02-F03",
+      "prior": {
+        "id": "E01-F13",
+        "episode": 1,
+        "entity": "Celeste Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 60 years old",
+        "quote": "CELESTE ASHFORD (60, pearls, ice-blue eyes) and SIENNA VALE (30, red dress, diamond ring) step out.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E02-F03",
+        "episode": 2,
+        "entity": "Celeste Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 61 years old",
+        "quote": "Celeste Ashford (61, pearls, ice-cold calm) smooths her sleeve.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Celeste is 60 in Episode 1 and 61 in Episode 2, with no time passage shown; the scene continues directly from Ep1.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Celeste 60 in Ep2 (or 61 in both episodes)."
+    },
+    {
+      "id": "E01-F14~E02-F04",
+      "prior": {
+        "id": "E01-F14",
+        "episode": 1,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 30 years old",
+        "quote": "CELESTE ASHFORD (60, pearls, ice-blue eyes) and SIENNA VALE (30, red dress, diamond ring) step out.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E02-F04",
+        "episode": 2,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 31 years old",
+        "quote": "Sienna Vale (31, designer white dress, diamond ring) steps between them.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Sienna is 30 in Episode 1 and 31 in Episode 2, though Ep2 continues the same scene with no time jump.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Sienna 30 in Ep2 (or 31 in both episodes)."
+    },
+    {
+      "id": "E02-F05~E03-F01",
+      "prior": {
+        "id": "E02-F05",
+        "episode": 2,
+        "entity": "Marcus Doyle",
+        "entity_key": "marcus doyle",
+        "category": "age",
+        "target": null,
+        "value": "is 45 years old",
+        "quote": "Marcus Doyle (45, hotel manager, nervous sweat) bursts in, tablet in hand.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E03-F01",
+        "episode": 3,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "occupation",
+        "target": "Grandview Hotel",
+        "value": "hotel manager in his 50s",
+        "quote": "NIGHT\nMarcus (50s, hotel manager) holds up an Ashford-crested envelope. Inside",
+        "quote_score": 97.01492537313433
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Marcus is established as 45 but is described as in his 50s in Ep3.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Marcus's description in Ep3 to '45'."
+    },
+    {
+      "id": "E02-F16~E04-F18",
+      "prior": {
+        "id": "E02-F16",
+        "episode": 2,
+        "entity": "Marcus Doyle",
+        "entity_key": "marcus doyle",
+        "category": "possession",
+        "target": "Nora Bell",
+        "value": "envelope with $40,000 and a note in Nora's handwriting found in locker 114",
+        "quote": "There's forty thousand dollars in here. And a note in your handwriting, Nora.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E04-F18",
+        "episode": 4,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "possession",
+        "target": "Nora Bell",
+        "value": "stole forty thousand dollars from Nora (claimed by Nora)",
+        "quote": "You stole forty thousand dollars from me. You get nothing.",
+        "quote_score": 100.0
+      },
+      "issue_type": "knowledge",
+      "severity": "medium",
+      "explanation": "Ep2/Ep3 show the $40,000 found in Nora's locker as supposedly her own bribe money, and Nora said she never saw it. In Ep4 she says Marcus stole $40,000 from her, which contradicts her having never seen the envelope.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Nora's line to something like 'You helped frame me with forty thousand dollars.'"
+    },
+    {
+      "id": "E03-F03~E04-F02",
+      "prior": {
+        "id": "E03-F03",
+        "episode": 3,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "occupation",
+        "target": "Grandview Hotel",
+        "value": "owner of the hotel, age 32",
+        "quote": "Julian Ashford (32, hotel owner) steps forward, jaw tight.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E04-F02",
+        "episode": 4,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 34 years old",
+        "quote": "JULIAN ASHFORD, 34, stares at the screen.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Julian was 33 in Eps 1-2, 32 in Ep3, and is 34 in Ep4, so his age is inconsistent.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Julian 33 in Ep4 (and fix Ep3's 32)."
+    },
+    {
+      "id": "E03-F04~E04-F04",
+      "prior": {
+        "id": "E03-F04",
+        "episode": 3,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "relationship",
+        "target": "Julian Ashford",
+        "value": "is Julian's fiancee, age 28",
+        "quote": "Sienna Vale (28, Julian's fiancee) appears at the corner",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E04-F04",
+        "episode": 4,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "SIENNA VALE, 29, in a white designer coat, blocks the elevator.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Sienna's age is 30 in Ep1, 31 in Ep2, 28 in Ep3, and 29 in Ep4, so it never stays stable.",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Sienna's age to a single value (e.g., 30) in all episodes."
+    },
+    {
+      "id": "E04-F03~E05-F01",
+      "prior": {
+        "id": "E04-F03",
+        "episode": 4,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 31 years old",
+        "quote": "NORA BELL, 31, in her gray housekeeper uniform, grips the desk.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E05-F01",
+        "episode": 5,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 32 years old",
+        "quote": "NORA BELL (32, housekeeper's uniform, shaking) holds her phone out.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Nora's age goes from 31 in Ep4 to 32 in Ep5 with no time jump, even though the story appears to run continuously (same night, same photo/ultimatum).",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Nora's age to a single consistent number across episodes (e.g., 31 in Ep5)."
+    },
+    {
+      "id": "E04-F02~E05-F02",
+      "prior": {
+        "id": "E04-F02",
+        "episode": 4,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 34 years old",
+        "quote": "JULIAN ASHFORD, 34, stares at the screen.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E05-F02",
+        "episode": 5,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 35 years old",
+        "quote": "JULIAN ASHFORD (35, tailored coat, jaw tight) holds an identical phone.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Julian is 34 in Ep4 but 35 in Ep5 with no time passing between the episodes.",
+      "could_be_intentional": false,
+      "suggested_fix": "Use the same age for Julian in Ep5 (34)."
+    },
+    {
+      "id": "E04-F01~E06-F06",
+      "prior": {
+        "id": "E04-F01",
+        "episode": 4,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 6 years old",
+        "quote": "Leo, 6, clutching a stuffed fox, his hand in Celeste's.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E06-F06",
+        "episode": 6,
+        "entity": "Celeste Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 64 years old",
+        "quote": "CELESTE ASHFORD (64, pearls, cold eyes) steps onto the porch holding a second folder.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Celeste was 60 in Ep1 and 61 in Ep2, and is now 64 in Ep6. That is more aging than the story timeline allows.",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Celeste's age to 61 or 62 in Ep6."
+    },
+    {
+      "id": "E05-F02~E06-F02",
+      "prior": {
+        "id": "E05-F02",
+        "episode": 5,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 35 years old",
+        "quote": "JULIAN ASHFORD (35, tailored coat, jaw tight) holds an identical phone.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E06-F02",
+        "episode": 6,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 36 years old",
+        "quote": "JULIAN ASHFORD (36, soaked tailored suit) stares at the signature page.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Julian was 35 in Ep5 and is 36 in Ep6, a one-year jump with no time passing between the episodes (the story is continuous, same night).",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Julian's age to 35 in Ep6."
+    },
+    {
+      "id": "E05-F17~E06-F01",
+      "prior": {
+        "id": "E05-F17",
+        "episode": 5,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 30 years old",
+        "quote": "SIENNA VALE (30, white coat, ice-calm) steps out of the shadows, holding a manila folder.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E06-F01",
+        "episode": 6,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 31 years old",
+        "quote": "SIENNA VALE (31, silk coat, icy calm) holds the folder out like a weapon.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Sienna is 30 in Ep5 and 31 in Ep6 in the same continuous scene sequence.",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Sienna's age to 30 in Ep6."
+    },
+    {
+      "id": "E05-F09~E06-F04",
+      "prior": {
+        "id": "E05-F09",
+        "episode": 5,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "occupation",
+        "target": "Grandview Hotel",
+        "value": "is hotel manager",
+        "quote": "MARCUS (50s, hotel manager, rumpled suit) rushes in, out of breath, keys jangling.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E06-F04",
+        "episode": 6,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "age",
+        "target": null,
+        "value": "is 48 years old",
+        "quote": "MARCUS (48, hotel manager, rumpled blazer) steps out of the car, phone raised.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Marcus is 45 in Ep1, Ep2 and Ep4 but 48 in Ep6. Ep3 and Ep5 describe him only as 'in his 50s', which also conflicts.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Marcus 45 in Ep6 (and fix the 50s descriptions in Ep3 and Ep5)."
+    },
+    {
+      "id": "E06-F06~E07-F07",
+      "prior": {
+        "id": "E06-F06",
+        "episode": 6,
+        "entity": "Celeste Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 64 years old",
+        "quote": "CELESTE ASHFORD (64, pearls, cold eyes) steps onto the porch holding a second folder.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F07",
+        "episode": 7,
+        "entity": "Celeste Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 61 years old",
+        "quote": "Celeste (61, pearls, ice-calm) slides the photo into her pocket.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Celeste is 64 in Ep6 but 61 in Ep7, though Ep7 continues the same night.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Celeste's age in Ep7 to 64, or settle on a single age for her across the series."
+    },
+    {
+      "id": "E06-F04~E07-F09",
+      "prior": {
+        "id": "E06-F04",
+        "episode": 6,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "age",
+        "target": null,
+        "value": "is 48 years old",
+        "quote": "MARCUS (48, hotel manager, rumpled blazer) steps out of the car, phone raised.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F09",
+        "episode": 7,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "occupation",
+        "target": null,
+        "value": "is a hotel manager, age 45",
+        "quote": "MARCUS (45, hotel manager) hovers behind him, phone in hand.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Marcus is 48 in Ep6 but 45 in Ep7, with no time passing.",
+      "could_be_intentional": false,
+      "suggested_fix": "Give Marcus one consistent age, for example 48 in Ep7."
+    },
+    {
+      "id": "E04-F13~E08-F13",
+      "prior": {
+        "id": "E04-F13",
+        "episode": 4,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "timeline",
+        "target": "Julian Ashford",
+        "value": "wedding was six years ago",
+        "quote": "Six years ago you left me at the altar of St. Anne's",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F13",
+        "episode": 8,
+        "entity": "Nora",
+        "entity_key": "nora bell",
+        "category": "relationship",
+        "target": "Julian",
+        "value": "was left at the altar by Julian seven years ago (as she believed)",
+        "quote": "He told me you ran. He said you took a check and left me at the altar.",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "medium",
+      "explanation": "Nora said the wedding was six years ago in Episode 4. Episode 8 says seven years ago.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make the timeframe consistent: change Episode 8 to \"six years ago\" or revise the Episode 4 line."
+    },
+    {
+      "id": "E07-F03~E08-F08",
+      "prior": {
+        "id": "E07-F03",
+        "episode": 7,
+        "entity": "Frank Bell",
+        "entity_key": "nora's father",
+        "category": "relationship",
+        "target": "Nora Bell",
+        "value": "is Nora's father",
+        "quote": "That's my dad. St. Luke's, 2018. He died that November.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F08",
+        "episode": 8,
+        "entity": "Julian",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": null,
+        "value": "seven years ago woke in St. Margaret's hospital with no memory of three weeks",
+        "quote": "Seven years ago, I woke up in St. Margaret's with no memory of three weeks.",
+        "quote_score": 100.0
+      },
+      "issue_type": "location",
+      "severity": "medium",
+      "explanation": "Julian's 2018 hospital stay beside Frank Bell was at St. Luke's in Episode 7. Episode 8 places it at St. Margaret's.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change \"St. Margaret's\" to \"St. Luke's\"."
+    },
+    {
+      "id": "E07-F06~E08-F01",
+      "prior": {
+        "id": "E07-F06",
+        "episode": 7,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 34 years old",
+        "quote": "JULIAN ASHFORD (34, tailored suit, shaken)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F01",
+        "episode": 8,
+        "entity": "Julian",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 32 years old",
+        "quote": "Julian (32, tailored charcoal suit) grips the hospital photo.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Julian is 32 in Episode 8, but he was 34 in Episode 7, 36 in Episode 6 and 33 in Episodes 1 and 2.",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Julian's age to one consistent value across the episodes."
+    },
+    {
+      "id": "E07-F01~E08-F03",
+      "prior": {
+        "id": "E07-F01",
+        "episode": 7,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 32 years old",
+        "quote": "NORA BELL (32, housekeeper, still in her Grandview uniform)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F03",
+        "episode": 8,
+        "entity": "Nora",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "Nora (29, still in her gray Grandview uniform)",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Nora is 29 in Episode 8, but she was 32 in Episodes 5 to 7, with no time jump shown.",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Nora's age to 32, or to whichever single age the series settles on."
+    },
+    {
+      "id": "E05-F05~E09-F09",
+      "prior": {
+        "id": "E05-F05",
+        "episode": 5,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "relationship",
+        "target": "Leo",
+        "value": "Leo is Julian's son and Nora cares for him as a mother figure",
+        "quote": "For five years I scrubbed floors in your hotel to feed your son.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F09",
+        "episode": 9,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "knowledge",
+        "target": "Leo Bell",
+        "value": "begins to realize Leo may be his son",
+        "quote": "Nora. How old is he?",
+        "quote_score": 100.0
+      },
+      "issue_type": "knowledge",
+      "severity": "medium",
+      "explanation": "Nora already told Julian that Leo is his son in Episode 5, and Julian already knew he was Leo's father in Episode 4. Here he only begins to wonder, and asks Nora how old Leo is.",
+      "could_be_intentional": false,
+      "suggested_fix": "Reword Episode 9 so Julian is confirming what he suspects (for example, asking about the DNA test or the date), or remove the earlier lines that state he is Leo's father."
+    },
+    {
+      "id": "E08-F03~E09-F07",
+      "prior": {
+        "id": "E08-F03",
+        "episode": 8,
+        "entity": "Nora",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "Nora (29, still in her gray Grandview uniform)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F07",
+        "episode": 9,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 31 years old",
+        "quote": "NORA BELL (31, housekeeper, still in her gray Grandview uniform)",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Nora is 29 in Episode 8 but 31 in Episode 9, with no time skip between the episodes.",
+      "could_be_intentional": false,
+      "suggested_fix": "Pick one age for Nora, since her age drifts across all nine episodes (29, 31, 32), and use it everywhere."
+    },
+    {
+      "id": "E08-F01~E09-F04",
+      "prior": {
+        "id": "E08-F01",
+        "episode": 8,
+        "entity": "Julian",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 32 years old",
+        "quote": "Julian (32, tailored charcoal suit) grips the hospital photo.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F04",
+        "episode": 9,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 34 years old",
+        "quote": "Julian ASHFORD (34, hotel owner, tailored suit)",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Julian is 32 in Episode 8 and 34 in Episode 9, in consecutive scenes of the same night.",
+      "could_be_intentional": false,
+      "suggested_fix": "Fix Julian's age at one value (his age is also given as 33, 34, 35 and 36 across episodes) and update every slug line."
+    },
+    {
+      "id": "E01-F10~E10-F03",
+      "prior": {
+        "id": "E01-F10",
+        "episode": 1,
+        "entity": "Leo Bell",
+        "entity_key": "leo bell",
+        "category": "relationship",
+        "target": "Julian Ashford",
+        "value": "has Julian's exact green eyes, implying he is Julian's son",
+        "quote": "Photo of LEO BELL (5, gap-toothed grin, dark curls, Julian's exact green eyes).",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F03",
+        "episode": 10,
+        "entity": "Leo Bell",
+        "entity_key": "leo bell",
+        "category": "identity",
+        "target": "Julian Ashford",
+        "value": "resembles Julian: same dark eyes and crooked eyebrow (implied father)",
+        "quote": "Same dark eyes. Same crooked eyebrow.",
+        "quote_score": 100.0
+      },
+      "issue_type": "other",
+      "severity": "medium",
+      "explanation": "Julian's eyes were established as green (Leo has 'Julian's exact green eyes'), and Ep8 calls them gray. Ep10 says Julian and Leo share 'same dark eyes'.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change the line to 'Same green eyes. Same crooked eyebrow.'"
+    },
+    {
+      "id": "E08-F08~E10-F08",
+      "prior": {
+        "id": "E08-F08",
+        "episode": 8,
+        "entity": "Julian",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": null,
+        "value": "seven years ago woke in St. Margaret's hospital with no memory of three weeks",
+        "quote": "Seven years ago, I woke up in St. Margaret's with no memory of three weeks.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F08",
+        "episode": 10,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": "Nora Bell",
+        "value": "seven years ago he woke in a Zurich clinic with a fake chart and was told Nora left him",
+        "quote": "Seven years, Nora. I woke up in a Zurich clinic with a fake chart and a story that you'd left me.",
+        "quote_score": 100.0
+      },
+      "issue_type": "location",
+      "severity": "medium",
+      "explanation": "In Ep8 Julian says he woke in St. Margaret's hospital seven years ago. In Ep10 he says he woke in a Zurich clinic. Ep7 also puts him in St. Luke's in 2018.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Julian say 'I woke up in St. Margaret's with a fake chart and a story that you'd left me', or add a line explaining he was moved to Zurich."
+    },
+    {
+      "id": "E09-F04~E10-F06",
+      "prior": {
+        "id": "E09-F04",
+        "episode": 9,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 34 years old",
+        "quote": "Julian ASHFORD (34, hotel owner, tailored suit)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F06",
+        "episode": 10,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 32 years old",
+        "quote": "JULIAN ASHFORD (32, hotel owner, tailored suit, unraveling)",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Julian is 34 in Ep9, the immediately preceding episode, and 32 in Ep10, with no time having been reversed.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Julian's age in Ep10 to 34."
+    },
+    {
+      "id": "E09-F07~E10-F04",
+      "prior": {
+        "id": "E09-F07",
+        "episode": 9,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 31 years old",
+        "quote": "NORA BELL (31, housekeeper, still in her gray Grandview uniform)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E10-F04",
+        "episode": 10,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "NORA BELL (29, hotel housekeeper, tired but proud)",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Nora is 31 in Ep9 and 29 in Ep10, though the scene continues straight from the previous episode.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Nora's age in Ep10 to 31."
+    },
+    {
+      "id": "E10-F15~E11-F11",
+      "prior": {
+        "id": "E10-F15",
+        "episode": 10,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "occupation",
+        "target": null,
+        "value": "hotel manager, age 45",
+        "quote": "MARCUS (45, hotel manager) slips toward the door.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E11-F11",
+        "episode": 11,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "occupation",
+        "target": null,
+        "value": "is 48 and the hotel manager",
+        "quote": "Marcus (48, hotel manager) blocks her, sweating.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Marcus is 45 in Ep10 and 48 in Ep11 within the same night.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Ep11 to 'Marcus (45, hotel manager)'."
+    },
+    {
+      "id": "E10-F20~E11-F04",
+      "prior": {
+        "id": "E10-F20",
+        "episode": 10,
+        "entity": "Officer Reyes",
+        "entity_key": "officer dana reyes",
+        "category": "location",
+        "target": "Leo Bell",
+        "value": "is at the Ashford mansion foyer and takes Leo to the sofa",
+        "quote": "Reyes nods gently and leads Leo to the sofa.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E11-F04",
+        "episode": 11,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "status",
+        "target": null,
+        "value": "kidnapped from the hotel staff lounge, taken in a gray van",
+        "quote": "They took him, Julian. They took our son.",
+        "quote_score": 100.0
+      },
+      "issue_type": "location",
+      "severity": "medium",
+      "explanation": "Ep10 ends with Leo at the Ashford mansion foyer with Officer Reyes, with the DNA test in progress there. Ep11 has him kidnapped from the Grandview staff lounge, with no on-screen move between the two places.",
+      "could_be_intentional": false,
+      "suggested_fix": "Add a line or title card saying the group moved to the Grandview after the mansion scene, or have Leo taken from the mansion."
+    },
+    {
+      "id": "E11-F05~E12-F01",
+      "prior": {
+        "id": "E11-F05",
+        "episode": 11,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 35 years old",
+        "quote": "Julian Ashford (35) stares at a clock: 11:14 PM.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E12-F01",
+        "episode": 12,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 34 years old",
+        "quote": "JULIAN ASHFORD (34, hotel owner) grips the phone, Celeste's voice on speaker.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Julian is 35 in Ep11 and 34 in Ep12, with no time jump between consecutive scenes in the same night.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Julian's age in Ep12 match Ep11 (35), or drop the age tag."
+    },
+    {
+      "id": "E11-F01~E12-F03",
+      "prior": {
+        "id": "E11-F01",
+        "episode": 11,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "age",
+        "target": null,
+        "value": "is 32 years old",
+        "quote": "CLOSE ON Nora Bell (32) at the window.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E12-F03",
+        "episode": 12,
+        "entity": "Nora Bell",
+        "entity_key": "nora bell",
+        "category": "occupation",
+        "target": null,
+        "value": "housekeeper, age 31",
+        "quote": "NORA BELL (31, housekeeper) sits beside him, shaking.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Nora is 32 in Ep11 and 31 in Ep12, in the same continuous night.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Nora's age tag in Ep12 to 32."
+    },
+    {
+      "id": "E11-F02~E12-F04",
+      "prior": {
+        "id": "E11-F02",
+        "episode": 11,
+        "entity": "Leo",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is 7 years old",
+        "quote": "Leo (7) is gone from the couch.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E12-F04",
+        "episode": 12,
+        "entity": "Leo Bell",
+        "entity_key": "leo bell",
+        "category": "age",
+        "target": null,
+        "value": "is six years old",
+        "quote": "Or Leo, age six, disappears for good.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "medium",
+      "explanation": "Leo is 7 in Ep11 and 6 in Ep12, immediately after the kidnapping.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Leo's age in Ep12 to seven (Celeste's line and the scene tag)."
+    },
+    {
+      "id": "E02-F12~E06-F11",
+      "prior": {
+        "id": "E02-F12",
+        "episode": 2,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": "Nora Bell",
+        "value": "waited at the church three hours on June 9th, 2018",
+        "quote": "June 9th, 2018. I waited at that church for three hours. Where were you?",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E06-F11",
+        "episode": 6,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": "Nora Bell",
+        "value": "disappeared in 2018, the night before their wedding (claimed by Nora)",
+        "quote": "He was gone in 2018. The night before our wedding. How could he sign anything in 2019?",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "medium",
+      "explanation": "Nora says Julian disappeared 'the night before our wedding' in 2018, but earlier episodes set the wedding date at June 14, 2018, or June 9, 2018, and Julian says he waited at the church, so he did not vanish the night before.",
+      "could_be_intentional": true,
+      "suggested_fix": "Change Nora's line to say he was gone on the wedding day, or reconcile it with Julian's claim."
+    },
+    {
+      "id": "E02-F12~E08-F09",
+      "prior": {
+        "id": "E02-F12",
+        "episode": 2,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "timeline",
+        "target": "Nora Bell",
+        "value": "waited at the church three hours on June 9th, 2018",
+        "quote": "June 9th, 2018. I waited at that church for three hours. Where were you?",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E08-F09",
+        "episode": 8,
+        "entity": "Julian",
+        "entity_key": "celeste ashford",
+        "category": "status",
+        "target": null,
+        "value": "has amnesia for three weeks seven years ago",
+        "quote": "I woke up in St. Margaret's with no memory of three weeks.",
+        "quote_score": 100.0
+      },
+      "issue_type": "timeline",
+      "severity": "medium",
+      "explanation": "Julian said he waited three hours at the church, and in Episode 4 he said he received a message that Nora had called it off. Episode 8 says he woke in a hospital with three weeks of amnesia around that time, so he could not have been at the church.",
+      "could_be_intentional": true,
+      "suggested_fix": "Explain how Julian could remember waiting at the church despite the amnesia, or make the amnesia begin after the wedding date."
+    },
+    {
+      "id": "E04-F16~E12-F16",
+      "prior": {
+        "id": "E04-F16",
+        "episode": 4,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "relationship",
+        "target": "Leo",
+        "value": "is Leo's father, who has not known him",
+        "quote": "Or sign the papers and he never knows his father.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E12-F16",
+        "episode": 12,
+        "entity": "Celeste",
+        "entity_key": "celeste ashford",
+        "category": "knowledge",
+        "target": "Julian Ashford",
+        "value": "reveals hotel belongs to Leo's father, who is not Julian",
+        "quote": "The hotel isn't yours. It's Leo's father's... and he isn't you.",
+        "quote_score": 100.0
+      },
+      "issue_type": "relationship",
+      "severity": "medium",
+      "explanation": "Earlier episodes establish Julian as Leo's father, through the eyes and his DNA demand. Celeste now says Leo's father is not Julian, which conflicts unless the DNA test proves her wrong or she is lying.",
+      "could_be_intentional": true,
+      "suggested_fix": "Mark Celeste's claim as a bluff, for example with Julian's visible doubt, or set up the DNA result as a twist."
+    },
+    {
+      "id": "E05-F08~E12-F16",
+      "prior": {
+        "id": "E05-F08",
+        "episode": 5,
+        "entity": "Julian Ashford",
+        "entity_key": "celeste ashford",
+        "category": "possession",
+        "target": "Grandview Hotel",
+        "value": "owns the Grandview Hotel",
+        "quote": "For five years I scrubbed floors in your hotel to feed your son.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E12-F16",
+        "episode": 12,
+        "entity": "Celeste",
+        "entity_key": "celeste ashford",
+        "category": "knowledge",
+        "target": "Julian Ashford",
+        "value": "reveals hotel belongs to Leo's father, who is not Julian",
+        "quote": "The hotel isn't yours. It's Leo's father's... and he isn't you.",
+        "quote_score": 100.0
+      },
+      "issue_type": "possession",
+      "severity": "medium",
+      "explanation": "Julian has been shown as owner of the Grandview Hotel (bought for $240M), but Celeste now says the hotel belongs to Leo's father, who is not Julian.",
+      "could_be_intentional": true,
+      "suggested_fix": "Make it clear on screen that this is Celeste's lie or a twist, for example by referring to a trust or a stake in the hotel rather than ownership."
+    },
+    {
+      "id": "E04-F04~E05-F17",
+      "prior": {
+        "id": "E04-F04",
+        "episode": 4,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "SIENNA VALE, 29, in a white designer coat, blocks the elevator.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E05-F17",
+        "episode": 5,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 30 years old",
+        "quote": "SIENNA VALE (30, white coat, ice-calm) steps out of the shadows, holding a manila folder.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "low",
+      "explanation": "Sienna is 29 in Ep4 but 30 in Ep5, with no on-screen time passing. Her age has also changed across all earlier episodes (30, 31, 28, 29).",
+      "could_be_intentional": false,
+      "suggested_fix": "Fix Sienna's age at one number (e.g., 29) in all episodes."
+    },
+    {
+      "id": "E04-F05~E05-F09",
+      "prior": {
+        "id": "E04-F05",
+        "episode": 4,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "age",
+        "target": null,
+        "value": "is 45 years old",
+        "quote": "MARCUS, 45, hotel manager, sweating, waits beside a black Mercedes",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E05-F09",
+        "episode": 5,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "occupation",
+        "target": "Grandview Hotel",
+        "value": "is hotel manager",
+        "quote": "MARCUS (50s, hotel manager, rumpled suit) rushes in, out of breath, keys jangling.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "low",
+      "explanation": "Marcus is 45 in Ep4 but described as in his 50s in Ep5.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Marcus's description in Ep5 to '(45, hotel manager, rumpled suit)'."
+    },
+    {
+      "id": "E06-F01~E07-F11",
+      "prior": {
+        "id": "E06-F01",
+        "episode": 6,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 31 years old",
+        "quote": "SIENNA VALE (31, silk coat, icy calm) holds the folder out like a weapon.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E07-F11",
+        "episode": 7,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 30 years old",
+        "quote": "SIENNA VALE (30, red dress, polished smile) blocks the stairs.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "low",
+      "explanation": "Sienna is 31 in Ep6 but 30 in Ep7, with no time passing.",
+      "could_be_intentional": false,
+      "suggested_fix": "Change Sienna's age in Ep7 to 31, or make Ep6 say 30."
+    },
+    {
+      "id": "E06-F04~E09-F18",
+      "prior": {
+        "id": "E06-F04",
+        "episode": 6,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "age",
+        "target": null,
+        "value": "is 48 years old",
+        "quote": "MARCUS (48, hotel manager, rumpled blazer) steps out of the car, phone raised.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F18",
+        "episode": 9,
+        "entity": "Marcus",
+        "entity_key": "marcus doyle",
+        "category": "occupation",
+        "target": "hotel",
+        "value": "hotel manager, age 45",
+        "quote": "MARCUS (45, hotel manager, rumpled tie)",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "low",
+      "explanation": "Marcus is 48 in Episode 6 and 45 in Episode 9. Episodes 5 and 3 describe him as in his 50s, so his age keeps changing.",
+      "could_be_intentional": false,
+      "suggested_fix": "Fix Marcus's age at one number (for example 48) and remove the \"50s\" and \"45\" variants."
+    },
+    {
+      "id": "E08-F02~E09-F12",
+      "prior": {
+        "id": "E08-F02",
+        "episode": 8,
+        "entity": "Celeste",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 60 years old",
+        "quote": "Celeste (60, pearls, ice-calm)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F12",
+        "episode": 9,
+        "entity": "Celeste Ashford",
+        "entity_key": "celeste ashford",
+        "category": "age",
+        "target": null,
+        "value": "is 62 years old",
+        "quote": "CELESTE ASHFORD (62, pearls, ice-cold) steps between them.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "low",
+      "explanation": "Celeste is 60 in Episode 8 and 62 in Episode 9, with no time passing between them.",
+      "could_be_intentional": false,
+      "suggested_fix": "Use one age for Celeste throughout, since it also appears as 60, 61 and 64."
+    },
+    {
+      "id": "E08-F04~E09-F01",
+      "prior": {
+        "id": "E08-F04",
+        "episode": 8,
+        "entity": "Sienna",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 30 years old",
+        "quote": "Sienna (30, red dress, phone in hand) taps her screen.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E09-F01",
+        "episode": 9,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "SIENNA VALE (29, silk gown, pale) lowers her phone.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "low",
+      "explanation": "Sienna is 30 in Episode 8 and 29 in Episode 9. Her age getting younger is unexplained.",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Sienna's age to one value throughout, since it also appears as 28, 29, 30 and 31."
+    },
+    {
+      "id": "E10-F12~E11-F06",
+      "prior": {
+        "id": "E10-F12",
+        "episode": 10,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "relationship",
+        "target": "Julian Ashford",
+        "value": "is Julian's fiancee",
+        "quote": "SIENNA VALE (30, fiancee, red dress)",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E11-F06",
+        "episode": 11,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "Sienna Vale (29) watches him from the doorway, pale.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "low",
+      "explanation": "Sienna is 30 in Ep10 and 29 in Ep11 on the same night.",
+      "could_be_intentional": false,
+      "suggested_fix": "Make Sienna's age consistent, for example '(30)' in Ep11."
+    },
+    {
+      "id": "E11-F06~E12-F10",
+      "prior": {
+        "id": "E11-F06",
+        "episode": 11,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "age",
+        "target": null,
+        "value": "is 29 years old",
+        "quote": "Sienna Vale (29) watches him from the doorway, pale.",
+        "quote_score": 100.0
+      },
+      "new": {
+        "id": "E12-F10",
+        "episode": 12,
+        "entity": "Sienna Vale",
+        "entity_key": "sienna vale",
+        "category": "relationship",
+        "target": "Julian Ashford",
+        "value": "is Julian's fiancee, age 30",
+        "quote": "SIENNA VALE (30, fiancee) steps from the shadows, a recorder in her hand.",
+        "quote_score": 100.0
+      },
+      "issue_type": "age",
+      "severity": "low",
+      "explanation": "Sienna is 29 in Ep11 and 30 in Ep12, with no time passing.",
+      "could_be_intentional": false,
+      "suggested_fix": "Set Sienna's age tag in Ep12 to 29."
+    }
+  ]
+}

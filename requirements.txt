@@ -1,0 +1,6 @@
+anthropic>=2.12
+pydantic>=2.10
+rapidfuzz>=3.10
+python-dotenv>=1.0
+requests>=2.32
+streamlit>=1.40

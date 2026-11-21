@@ -1,0 +1,24 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E03-F11",
+    "new_fact_id": "E05-F05",
+    "explanation": "Both give two years as the length of Vanessa's relationship with Adrian, so they are consistent rather than conflicting.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F03",
+    "new_fact_id": "E10-F09",
+    "explanation": "Maya was found alone at age four and is 24 now, so the locket was on her for about twenty years, but the photo inside was put there by Richard (E08-F10) and she only learned he was her father in Ep8. She claims to have carried 'her father's photograph' for twenty years, though she believed she was nobody's child (E08-F11) and only just met him.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "No fix needed; optionally reword to 'carries the photograph of her father'. She has carried the locket with his photo for twenty years, and only now knows it is her father."
+  }
+]

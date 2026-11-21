@@ -1,0 +1,90 @@
+[
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F08",
+    "new_fact_id": "E04-F13",
+    "explanation": "Ep1 shows the failed wedding as June 14, 2018, and Ep2 gives the date as June 9th, 2018. Ep4 places it six years ago, which is not consistent with Nora being 29 in earlier episodes and Leo being 6 unless the story is set in 2024. Julian's 'I never left' also conflicts with Ep2, where he waited at the church. The timeline itself is plausible, but the venue conflicts with the earlier ones.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "No change needed for the timeline; fix the venue separately."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E02-F12",
+    "new_fact_id": "E04-F14",
+    "explanation": "In Ep2 Julian says he waited at the church for three hours, and in Ep4 he says he 'never left' but got a message that Nora called it off. This is a different account: Julian was at the church in Ep2, and in Ep4 Nora says he left her at the altar. This is part of the mutual misunderstanding and could be consistent with the story.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "No change needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E03-F13",
+    "new_fact_id": "E04-F16",
+    "explanation": "Ep3 says Julian doesn't know who Leo is, and Ep4 treats him as Leo's father with no on-screen reveal. In Ep4 Julian never says he is the father, while Nora's text says he 'never knows his father'. It's a gradual reveal and not a contradiction.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "No change needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F10",
+    "new_fact_id": "E04-F17",
+    "explanation": "Ep1 and Ep3 say Leo has Julian's exact green eyes, and in Ep4 Julian says Leo has his grandfather's eyes. Both can be true, since the eyes can run in the family.",
+    "is_real_contradiction": false,
+    "issue_type": "other",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "No change needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E01-F11",
+    "new_fact_id": "E05-F07",
+    "explanation": "Nora says she worked five years scrubbing floors at Julian's hotel, but Julian only bought the hotel 'last week' in Ep1, so he could not have owned it for five years. Her line may only mean she worked there for five years, but 'your hotel' conflicts with the recent purchase.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "Change the line to 'For five years I scrubbed floors in that hotel to feed your son.'"
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F16",
+    "new_fact_id": "E05-F11",
+    "explanation": "Julian says he has always known about Leo being kept from him by his mother, but Ep4 shows him unaware that Leo is his son. However, he is only claiming Celeste knew, not that he knew, so both can be true.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": false,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E04-F17",
+    "new_fact_id": "E05-F18",
+    "explanation": "Julian is shown adoption papers with his signature; this is a new reveal and not inconsistent with earlier facts, since he never knew Leo before.",
+    "is_real_contradiction": false,
+    "issue_type": "knowledge",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "None needed."
+  },
+  {
+    "reason": "model retracted (is_real_contradiction=false)",
+    "prior_fact_id": "E05-F07",
+    "new_fact_id": "E06-F09",
+    "explanation": "Sienna says Julian signed Leo over on March 3rd, 2019 'before he could even walk', but Leo is 6 now (about 2018\u201319 birth would make him ~5-6 and born before/around 2018), which fits poorly. This is likely just her claim and may be consistent.",
+    "is_real_contradiction": false,
+    "issue_type": "timeline",
+    "severity": "low",
+    "could_be_intentional": true,
+    "suggested_fix": "Optionally clarify Leo's birth date relative to March 2019."
+  }
+]
