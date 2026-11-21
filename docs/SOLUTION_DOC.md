@@ -1,8 +1,8 @@
 # Microdrama Continuity Checker
 
-Kuku AI Generalist Assignment, Problem 3 · [Name] · [Roll no.] · [Branch]
+Kuku AI Generalist Assignment, Problem 3 · Chinmay Rout · [Roll no.] · [Branch]
 
-Prototype: [repo link] · Raw outputs: `outputs/` · Video: [link]
+Code: github.com/ChinmayRout9040895625/ai-microdrama-continuity-checker · Results site: ai-microdrama-continuity-checker.vercel.app · Raw outputs: `outputs/` in the repo · Video: [link]
 
 ## Problem, user, and why it matters
 
